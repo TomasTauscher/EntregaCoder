@@ -284,6 +284,275 @@ a.linkFooter5:active {
     top: 1650px;
     left: 800px;
 }
+@media (max-width: 390px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 390px;
+    }
+    .h1Index {
+        position: absolute;
+        font-size: 40px;
+        left: 50px;
+        top: 240px;
+        display: inline;
+        background-color: aquamarine;
+
+    }
+    .videoIndex {
+        visibility: hidden;
+    }
+    .parrafoIndex1 {
+        background-color: antiquewhite;
+        position: absolute;
+        left: 20px;
+        top: 350px;
+        font-size: 15px;
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+    }
+    .botonIndex {
+        position: absolute;
+        top: 500px;
+        left: 120px;
+        text-decoration: none;
+        width: 150px;
+        border-style: solid;
+        border-color: black;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        color: black;
+    }
+    body h2 {
+        position: absolute;
+        top: 650px;
+        left: 35%;
+        background-color: aquamarine;
+    }
+    .album5 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 700px;
+        left: 45px;
+    }
+    .album4 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 1020px;
+        left: 45px;
+    }
+    .album3 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 1340px;
+        left: 45px;
+    }
+    .album2 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 1660px;
+        left: 45px;
+    }
+    .album1 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 1980px;
+        left: 45px;
+    }
+    .parrafoIndex2 {
+        position: absolute;
+        top: 2320px;
+        font-size: 25px;
+        background-color: antiquewhite;
+        left: 20px;
+        font-size: 15px;
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+    }
+    #pieDePagina {
+        background-color: gray;
+    }
+    .parrafoIndex3 {
+        position: absolute;
+        top: 2500px;
+        left: 20px;
+        background-color: black;
+        padding: 5px;
+        color: white;
+    }
+    .twitter {
+        position: absolute;
+        top: 2500px;
+        left: 200px;
+        height: 40px;
+    }
+    .instagram {
+        position: absolute;
+        top: 2500px;
+        left: 250px;
+        height: 40px;
+    }
+    .youtube {
+        position: absolute;
+        top: 2500px;
+        left: 320px;
+        height: 40px;
+    }
+    .registrate {
+        position: absolute;
+        top: 2650px;
+        left: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+    .renglon {
+        position: absolute;
+        top: 2650px;
+        left: 110px;
+        height: 40px;
+    }
+    .botonEnviarPieDePagina {
+        position: absolute;
+        top: 2650px;
+        left: 290px;
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+    .linkFooter1 {
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2700px;
+        left: 170px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 50px;
+        text-align: center;
+    }
+    a.linkFooter1:hover {
+        color: green;
+    }
+    a.linkFooter1:active {
+        color: black;
+    }
+    .linkFooter2{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2750px;
+        left: 137px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 115px;
+        text-align: center;
+    }
+    a.linkFooter2:hover {
+        color: green;
+    }
+    a.linkFooter2:active {
+        color: black;
+    }
+    .linkFooter3{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2800px;
+        left: 125px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 140px;
+        text-align: center;
+    }
+    a.linkFooter3:hover {
+        color: green;
+    }
+    a.linkFooter3:active {
+        color: black;
+    }
+    .linkFooter4{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2850px;
+        left: 145px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 100px;
+        text-align: center;
+    }
+    a.linkFooter4:hover {
+        color: green;
+    }
+    a.linkFooter4:active {
+        color: black;
+    }
+    .linkFooter5{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2930px;
+        left: 150px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 90px;
+        text-align: center;
+    }
+    a.linkFooter5:hover {
+        color: green;
+    }
+    a.linkFooter5:active {
+        color: black;
+    }
+    .derechos {
+        position: absolute;
+        top: 3000px;
+        left: 10px;
+        width: 370px;
+        text-align: center;
+    }
+}
 
 /* BIBLIOGRAFIA */
 
@@ -527,6 +796,291 @@ a.linkFooter5Bibliografia:active {
     top: 2350px;
     left: 800px;
 }
+@media (max-width: 390px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 390px;
+    }
+    .h1Bibliografia {
+        position: absolute;
+        font-size: 40px;
+        left: 100px;
+        top: 150px;
+        display: inline;
+        background-color: aquamarine;
+    }
+    .feid1 {
+        position: absolute;
+        top: 350px;
+        left: 45px;
+        width: 300px;
+    }
+    .parrafoBibliografia1 {
+        position: absolute;
+        top: 670px;
+        left: 50px;
+        font-size: 16px;
+        width: 300px;
+        font-style: italic;
+        background-color: aquamarine;
+        text-align: center;
+    }
+    .feid2 {
+        position: absolute;
+        top: 1150px;
+        left: 50px;
+        width: 300px;
+
+    }
+    .parrafoBibliografia2 {
+        position: absolute;
+        top: 1420px;
+        left: 50px;
+        font-size: 16px;
+        width: 300px;
+        font-style: italic;
+        background-color: aquamarine;
+        text-align: center;
+
+    }
+    .videoBibliografia1 {
+        position: absolute;
+        top: 1800px;
+        left: 20px;
+        display: inline-block;
+        width: 350px;
+
+    }
+    .videoBibliografia2 {
+        position: absolute;
+        top: 2130px;
+        left: 20px;
+        display: inline-block;
+        width: 350px;
+    }
+    .videoBibliografia3 {
+        position: absolute;
+        top: 2460px;
+        left: 20px;
+        display: inline-block;  
+        width: 350px;
+    }
+    .parrafoBibliografia3 {
+        position: absolute;
+        top: 2790px;
+        left: 20px;
+        font-size: 16px;
+        width: 350px;
+        text-align: center;
+        background-color: aquamarine;
+        padding: 5px;
+    }
+    /* .feid3 {
+        position: absolute;
+        top: 1600px;
+        left: 100px;
+        width: 500px;
+        height: 330px;
+    }
+    .feid4 {
+        position: absolute;
+        top: 1600px;
+        left: 700px;
+        width: 500px;
+        height: 330px;
+    }
+    .feid5 {
+        position: absolute;
+        top: 1600px;
+        left: 1300px;
+        width: 500px;
+        height: 330px;
+    } */
+    
+    #carouselExampleIndicators {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        top: 3100px;
+
+    }
+    #pieDePaginaBibliografia {
+        background-color: gray;
+
+    }
+    .parrafoBibliografia4 {
+        position: absolute;
+        top: 3450px;
+        left: 20px;
+        background-color: black;
+        padding: 5px;
+        color: white;
+    }
+    .twitterBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 200px;
+        height: 40px;
+    }
+    .instagramBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 250px;
+        height: 40px;
+    }
+    .youtubeBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 320px;
+        height: 40px;
+    }
+    .registrateBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+    .renglonBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 110px;
+        height: 40px;
+    }
+    .botonEnviarFooterBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 290px;
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+    .linkFooter1Bibliografia {
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3650px;
+        left: 170px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 50px;
+        text-align: center;
+    }
+    a.linkFooter1Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter1Bibliografia:active {
+        color: black;
+    }
+    .linkFooter2Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3700px;
+        left: 137px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 115px;
+        text-align: center;
+    }
+    a.linkFooter2Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter2Bibliografia:active {
+        color: black;
+    }
+    .linkFooter3Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3750px;
+        left: 125px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 140px;
+        text-align: center;
+    }
+    a.linkFooter3Biblioteca:hover {
+        color: green;
+    }
+    a.linkFooter3Bibliografia:active {
+        color: black;
+    }
+    .linkFooter4Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3800px;
+        left: 145px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 100px;
+        text-align: center;
+    }
+    a.linkFooter4Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter4Bibliografia:active {
+        color: black;
+    }
+    .linkFooter5Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3880px;
+        left: 150px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 90px;
+        text-align: center;
+    }
+    a.linkFooter5Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter5Bibliografia:active {
+        color: black;
+    }
+    .derechosBibliografia {
+        position: absolute;
+        top: 3950px;
+        left: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    
+}
 
 /* MERCHANDISING */
 .h1Merchandising {
@@ -595,6 +1149,191 @@ td:hover {
     width: 450px;
 }
 
+@media (max-width: 390px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 390px;
+    }
+    .h1Merchandising {
+        position: absolute;
+        font-size: 40px;
+        left: 20px;
+        top: 150px;
+        display: inline;
+        background-color: aquamarine;
+    }
+    .tablaMerchandising {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        padding: 3px;
+        background-color: darkseagreen;
+        text-align: center;
+    }
+    th {
+        background-color: forestgreen;
+        color: white;
+        font-size: 14px;
+    }
+    td {
+        background-color: lawngreen;
+        color: black;
+        font-size: 14px; 
+    }
+    td:hover {
+        background-color: #aaa;
+    }
+    .sixdo {
+        position: absolute;
+        top:550px;
+        left: 20px;
+        height: 370px;
+    }
+    .felizCumpleFerxxo {
+        position: absolute;
+        top: 950px;
+        left: 20px;
+        height: 370px;
+    }
+    .interShibuyaLM {
+        position: absolute;
+        top: 1350px;
+        left: 20px;
+        height: 370px;
+    }
+    .mor {
+        position: absolute;
+        top: 1750px;
+        left: 20px;
+        height: 370px;
+    }
+    .remeraNegra {
+        position: absolute;
+        top: 2130px;
+        left: 20px;
+        width: 333px;
+        height: 350px;
+    }
+    .remeraBlanca {
+        position: absolute;
+        top: 950px;
+        left: 1350px;
+        height: 500px;
+        width: 450px;
+        visibility: hidden;
+    }
+    
+    /* PROXIMOS SHOWS */
+    .h1ProximosShows {
+        position: absolute;
+        font-size: 40px;
+        left: 400px;
+        top: 120px;
+        display: inline;
+    }
+    .h2ProximosShows {
+        position: absolute;
+        font-size: 30px;
+        left: 850px;
+        top: 250px;
+        display: inline;
+    }
+    .tablaProximosShows {
+        position: absolute;
+        top: 300px;
+        left: 580px;
+        padding: 5px;
+        background-color: darkseagreen;
+    }
+    .show11 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show14 {
+        background-color: rgb(0, 255, 242); 
+    }
+    .show16 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show26 {
+        background-color: rgb(0, 255, 242);
+    }
+    .lawngreen {
+        position: absolute;
+        top: 495px;
+        left: 1230px;
+    }
+    .fss {
+        position: absolute;
+        top: 493px;
+        left: 1250px;
+    }
+    .aqua {
+        position: absolute;
+        top: 465px;
+        left: 1230px;
+    }
+    .fds {
+        position: absolute;
+        top: 463px;
+        left: 1250px;
+    }
+    .mapaRM {
+        position: absolute;
+        top: 600px;
+        left: 100px;
+        height: 400px;
+    }
+    .txt11 {
+        position: absolute;
+        top: 540px;
+        left: 100px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaTZM {
+        position: absolute;
+        top: 600px;
+        right: 100px;
+        height: 400px;
+    }
+    .txt14 {
+        position: absolute;
+        top: 540px;
+        right: 100px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaMC {
+        position: absolute;
+        top: 1070px;
+        left: 100px;
+        height: 400px;
+    }
+    .txt16 {
+        position: absolute;
+        top: 1010px;
+        left: 100px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaD {
+        position: absolute;
+        top: 1070px;
+        right: 100px;
+        height: 400px;
+    }
+    .txt26 {
+        position: absolute;
+        top: 1010px;
+        right: 100px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+}
 /* PROXIMOS SHOWS */
 .h1ProximosShows {
     position: absolute;
@@ -705,7 +1444,128 @@ td:hover {
     background-color: rgb(0, 255, 242);
     font-size: 40px;
 }
-
+@media (max-width: 390px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 390px;
+    }
+    .h1ProximosShows {
+        position: absolute;
+        font-size: 40px;
+        left: 45px;
+        top: 150px;
+        width: 300px;
+        display: inline;
+        background-color: aquamarine;
+        text-align: center;
+    }
+    .h2ProximosShows {
+        position: absolute;
+        font-size: 30px;
+        left: 145px;
+        top: 250px;
+        width: 100px;
+        display: inline;
+        background-color: aquamarine;
+    }
+    .tablaProximosShows {
+        position: absolute;
+        top: 300px;
+        left: 20px;
+        padding: 5px;
+        background-color: darkseagreen;
+    }
+    .show11 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show14 {
+        background-color: rgb(0, 255, 242); 
+    }
+    .show16 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show26 {
+        background-color: rgb(0, 255, 242);
+    }
+    .lawngreen {
+        position: absolute;
+        top: 495px;
+        left: 1230px;
+    }
+    .fss {
+        position: absolute;
+        top: 493px;
+        left: 1250px;
+    }
+    .aqua {
+        position: absolute;
+        top: 465px;
+        left: 1230px;
+    }
+    .fds {
+        position: absolute;
+        top: 463px;
+        left: 1250px;
+    }
+    .mapaRM {
+        position: absolute;
+        top: 600px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt11 {
+        position: absolute;
+        top: 530px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaTZM {
+        position: absolute;
+        top: 1100px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt14 {
+        position: absolute;
+        top: 1030px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+        width: 45px;
+    }
+    .mapaMC {
+        position: absolute;
+        top: 1580px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt16 {
+        position: absolute;
+        top: 1520px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaD {
+        position: absolute;
+        top: 2080px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt26 {
+        position: absolute;
+        top: 2010px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+        width: 45px;
+    }
+}
 /* CONTACTO */
 .h1Contacto {
     position: absolute;
@@ -871,4 +1731,207 @@ td:hover {
     left: 300px;
     top: 1350px;
     font-size: 30px;
+}
+
+@media (max-width: 390px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 390px;
+    }
+    .h1Contacto {
+        position: absolute;
+        font-size: 40px;
+        left: 20px;
+        top: 120px;
+        display: inline;
+        background-color: aquamarine;
+        text-align: center;
+        width: 350px;
+    }
+    .nombreContacto {
+        position: absolute;
+        font-size: 30px;
+        left: 70px;
+        top: 290px;
+        display: inline;
+        width: 250px;
+        background-color: beige;
+    }
+    .EjNombreContacto {
+        position: absolute;
+        left: 20px;
+        top: 350px;
+        height: 30px;
+        width: 280px;
+    }
+    .BotonFormularioNombre {
+        position: absolute;
+        top: 350px;
+        left: 300px;
+        height: 30px;
+        width: 75px;
+        background-color: black;
+        color: white;
+    }
+    .emailContacto {
+        position: absolute;
+        font-size: 30px;
+        left: 155px;
+        top: 430px;
+        display: inline;
+        width: 80px;
+        background-color: beige;
+        text-align: center;
+    }
+    .EjEmailContacto {
+        position: absolute;
+        left: 20px;
+        top: 490px;
+        height: 30px;
+        width: 280px;
+    }
+    .BotonFormularioEmail {
+        position: absolute;
+        top: 490px;
+        left: 300px;
+        height: 30px;
+        width: 75px;
+        background-color: black;
+        color: white;
+    }
+    .telefonoContacto {
+        position: absolute;
+        font-size: 30px;
+        left: 135px;
+        top: 570px;
+        display: inline;
+        background-color: beige;
+        text-align: center;
+        width: 120px;
+    }
+    .EjTelefonoContacto {
+        position: absolute;
+        left: 20px;
+        top: 630px;
+        height: 30px;
+        width: 280px;
+    }
+    .BotonFormularioTelefono {
+        position: absolute;
+        top: 630px;
+        left: 300px;
+        height: 30px;
+        width: 75px;
+        background-color: black;
+        color: white;
+    }
+    .h2Contacto {
+        position: absolute;
+        font-size: 35px;
+        left: 135px;
+        top: 750px;
+        display: inline;
+        width: 120px;
+        text-align: center;
+    }
+    .tablaContacto {
+        position: absolute;
+        top: 850px;
+        left: 20px;
+        padding: 5px;
+        background-color: darkseagreen;
+    }
+    .show11Contacto {
+        background-color: rgb(0, 255, 242);
+    }
+    .show14Contacto {
+        background-color: rgb(0, 255, 242);
+    }
+    .show16Contacto {
+        background-color: rgb(0, 255, 242);
+    }
+    .show26Contacto {
+        background-color: rgb(0, 255, 242);
+    }
+    .EMPContacto {
+        position: absolute;
+        font-size: 30px;
+        left: 20px;
+        top: 1070px;
+        display: inline;
+        background-color: beige;
+        width: 350px;
+        text-align: center;
+    }
+    .MDPContacto {
+        position: absolute;
+        left: 120px;
+        top: 1170px;
+        width: 150px;
+    }
+    .consultaContacto {
+        position: absolute;
+        left: 70px;
+        top: 1300px;
+        font-size: 30px;
+        background-color: beige;
+        width: 250px;
+        text-align: center;
+    }
+    .textAreaContacto {
+        position: absolute;
+        left: 45px;
+        top: 1400px;
+        border: 5px black solid;
+        width: 300px;
+        height: 200px;
+    }
+    .opcionContacto {
+        position: absolute;
+        left: 70px;
+        top: 1800px;
+        font-size: 30px;
+        background-color: beige;
+        text-align: center;
+        width: 250px;
+
+    }
+    .radioContactoSi {
+        position: absolute;
+        left: 200px;
+        top: 2000px;
+    }
+    .txt1Contacto {
+        position: absolute;
+        left: 180px;
+        top: 1990px;
+        font-size: 20px;
+        background-color: beige;
+    }
+    .radioContactoNo {
+        position: absolute;
+        left: 200px;
+        top: 2050px;
+    }
+    .txt2Contacto {
+        position: absolute;
+        left: 165px;
+        top: 2040px;
+        font-size: 20px;
+        background-color: beige;
+    }
+    .confirmarContacto {
+        position: absolute;
+        left: 120px;
+        top: 2200px;
+        font-size: 30px;
+        width: 150px;
+    }
+    .reiniciarContacto {
+        position: absolute;
+        left: 120px;
+        top: 2300px;
+        font-size: 30px;
+        width: 150px;
+    }
 }
