@@ -284,27 +284,29 @@ a.linkFooter5:active {
     top: 1650px;
     left: 800px;
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background-image: url(../img/fondo1.jpg);
-        background-size: 390px;
+        background-size: 400px;
     }
     .h1Index {
         position: absolute;
         font-size: 40px;
-        left: 50px;
+        left: 165px;
         top: 240px;
+        width: 70px;
         display: inline;
         background-color: aquamarine;
+        text-align: center;
 
     }
     .videoIndex {
-        visibility: hidden;
+        display: none;
     }
     .parrafoIndex1 {
         background-color: antiquewhite;
         position: absolute;
-        left: 20px;
+        left: 25px;
         top: 350px;
         font-size: 15px;
         width: 350px;
@@ -314,7 +316,7 @@ a.linkFooter5:active {
     .botonIndex {
         position: absolute;
         top: 500px;
-        left: 120px;
+        left: 125px;
         text-decoration: none;
         width: 150px;
         border-style: solid;
@@ -337,42 +339,42 @@ a.linkFooter5:active {
         width: 300px;
         position: absolute;
         top: 700px;
-        left: 45px;
+        left: 50px;
     }
     .album4 {
         height: 300px;
         width: 300px;
         position: absolute;
         top: 1020px;
-        left: 45px;
+        left: 50px;
     }
     .album3 {
         height: 300px;
         width: 300px;
         position: absolute;
         top: 1340px;
-        left: 45px;
+        left: 50px;
     }
     .album2 {
         height: 300px;
         width: 300px;
         position: absolute;
         top: 1660px;
-        left: 45px;
+        left: 50px;
     }
     .album1 {
         height: 300px;
         width: 300px;
         position: absolute;
         top: 1980px;
-        left: 45px;
+        left: 50px;
     }
     .parrafoIndex2 {
         position: absolute;
         top: 2320px;
         font-size: 25px;
         background-color: antiquewhite;
-        left: 20px;
+        left: 25px;
         font-size: 15px;
         width: 350px;
         padding: 10px;
@@ -398,13 +400,13 @@ a.linkFooter5:active {
     .instagram {
         position: absolute;
         top: 2500px;
-        left: 250px;
+        left: 255px;
         height: 40px;
     }
     .youtube {
         position: absolute;
         top: 2500px;
-        left: 320px;
+        left: 330px;
         height: 40px;
     }
     .registrate {
@@ -437,7 +439,7 @@ a.linkFooter5:active {
         text-decoration: none;
         position:absolute;
         top: 2700px;
-        left: 170px;
+        left: 175px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -460,7 +462,7 @@ a.linkFooter5:active {
         text-decoration: none;
         position:absolute;
         top: 2750px;
-        left: 137px;
+        left: 142px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -483,7 +485,7 @@ a.linkFooter5:active {
         text-decoration: none;
         position:absolute;
         top: 2800px;
-        left: 125px;
+        left: 130px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -506,7 +508,7 @@ a.linkFooter5:active {
         text-decoration: none;
         position:absolute;
         top: 2850px;
-        left: 145px;
+        left: 150px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -529,7 +531,7 @@ a.linkFooter5:active {
         text-decoration: none;
         position:absolute;
         top: 2930px;
-        left: 150px;
+        left: 155px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -548,7 +550,7 @@ a.linkFooter5:active {
     .derechos {
         position: absolute;
         top: 3000px;
-        left: 10px;
+        left: 15px;
         width: 370px;
         text-align: center;
     }
@@ -621,28 +623,6 @@ a.linkFooter5:active {
     background-color: aquamarine;
     padding: 5px;
 }
-/* .feid3 {
-    position: absolute;
-    top: 1600px;
-    left: 100px;
-    width: 500px;
-    height: 330px;
-}
-.feid4 {
-    position: absolute;
-    top: 1600px;
-    left: 700px;
-    width: 500px;
-    height: 330px;
-}
-.feid5 {
-    position: absolute;
-    top: 1600px;
-    left: 1300px;
-    width: 500px;
-    height: 330px;
-} */
-
 #carouselExampleIndicators {
     width: 800px;
     height: auto;
@@ -651,8 +631,6 @@ a.linkFooter5:active {
 }
 #pieDePaginaBibliografia {
     background-image: url(../img/BANNER\ feid.jpg);
-    /* position: absolute; */
-    /* height: 1000px; */
     overflow: hidden;
 }
 .parrafoBibliografia4 {
@@ -796,23 +774,25 @@ a.linkFooter5Bibliografia:active {
     top: 2350px;
     left: 800px;
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background-image: url(../img/fondo1.jpg);
-        background-size: 390px;
+        background-size: 400px;
     }
     .h1Bibliografia {
         position: absolute;
         font-size: 40px;
-        left: 100px;
+        left: 125px;
         top: 150px;
+        width: 150px;
+        text-align: center;
         display: inline;
         background-color: aquamarine;
     }
     .feid1 {
         position: absolute;
         top: 350px;
-        left: 45px;
+        left: 50px;
         width: 300px;
     }
     .parrafoBibliografia1 {
@@ -846,7 +826,7 @@ a.linkFooter5Bibliografia:active {
     .videoBibliografia1 {
         position: absolute;
         top: 1800px;
-        left: 20px;
+        left: 25px;
         display: inline-block;
         width: 350px;
 
@@ -854,49 +834,27 @@ a.linkFooter5Bibliografia:active {
     .videoBibliografia2 {
         position: absolute;
         top: 2130px;
-        left: 20px;
+        left: 25px;
         display: inline-block;
         width: 350px;
     }
     .videoBibliografia3 {
         position: absolute;
         top: 2460px;
-        left: 20px;
+        left: 25px;
         display: inline-block;  
         width: 350px;
     }
     .parrafoBibliografia3 {
         position: absolute;
         top: 2790px;
-        left: 20px;
+        left: 25px;
         font-size: 16px;
         width: 350px;
         text-align: center;
         background-color: aquamarine;
         padding: 5px;
     }
-    /* .feid3 {
-        position: absolute;
-        top: 1600px;
-        left: 100px;
-        width: 500px;
-        height: 330px;
-    }
-    .feid4 {
-        position: absolute;
-        top: 1600px;
-        left: 700px;
-        width: 500px;
-        height: 330px;
-    }
-    .feid5 {
-        position: absolute;
-        top: 1600px;
-        left: 1300px;
-        width: 500px;
-        height: 330px;
-    } */
-    
     #carouselExampleIndicators {
         width: 300px;
         height: auto;
@@ -964,7 +922,7 @@ a.linkFooter5Bibliografia:active {
         text-decoration: none;
         position:absolute;
         top: 3650px;
-        left: 170px;
+        left: 175px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -987,7 +945,7 @@ a.linkFooter5Bibliografia:active {
         text-decoration: none;
         position:absolute;
         top: 3700px;
-        left: 137px;
+        left: 142px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -1010,7 +968,7 @@ a.linkFooter5Bibliografia:active {
         text-decoration: none;
         position:absolute;
         top: 3750px;
-        left: 125px;
+        left: 130px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -1033,7 +991,7 @@ a.linkFooter5Bibliografia:active {
         text-decoration: none;
         position:absolute;
         top: 3800px;
-        left: 145px;
+        left: 150px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -1056,7 +1014,7 @@ a.linkFooter5Bibliografia:active {
         text-decoration: none;
         position:absolute;
         top: 3880px;
-        left: 150px;
+        left: 155px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
@@ -1149,15 +1107,17 @@ td:hover {
     width: 450px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background-image: url(../img/fondo1.jpg);
-        background-size: 390px;
+        background-size: 400px;
     }
     .h1Merchandising {
         position: absolute;
         font-size: 40px;
-        left: 20px;
+        left: 65px;
+        width: 270px;
+        text-align: center;
         top: 150px;
         display: inline;
         background-color: aquamarine;
@@ -1186,32 +1146,36 @@ td:hover {
     .sixdo {
         position: absolute;
         top:550px;
-        left: 20px;
+        left: 25px;
+        width: 350px;
         height: 370px;
     }
     .felizCumpleFerxxo {
         position: absolute;
         top: 950px;
-        left: 20px;
+        left: 25px;
+        width: 350px;
         height: 370px;
     }
     .interShibuyaLM {
         position: absolute;
         top: 1350px;
-        left: 20px;
+        left: 25px;
+        width: 350px;
         height: 370px;
     }
     .mor {
         position: absolute;
         top: 1750px;
-        left: 20px;
+        left: 25px;
+        width: 350px;
         height: 370px;
     }
     .remeraNegra {
         position: absolute;
         top: 2130px;
-        left: 20px;
-        width: 333px;
+        left: 25px;
+        width: 350px;
         height: 350px;
     }
     .remeraBlanca {
@@ -1444,15 +1408,15 @@ td:hover {
     background-color: rgb(0, 255, 242);
     font-size: 40px;
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background-image: url(../img/fondo1.jpg);
-        background-size: 390px;
+        background-size: 400px;
     }
     .h1ProximosShows {
         position: absolute;
         font-size: 40px;
-        left: 45px;
+        left: 50px;
         top: 150px;
         width: 300px;
         display: inline;
@@ -1462,7 +1426,7 @@ td:hover {
     .h2ProximosShows {
         position: absolute;
         font-size: 30px;
-        left: 145px;
+        left: 150px;
         top: 250px;
         width: 100px;
         display: inline;
@@ -1733,10 +1697,10 @@ td:hover {
     font-size: 30px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background-image: url(../img/fondo1.jpg);
-        background-size: 390px;
+        background-size: 400px;
     }
     .h1Contacto {
         position: absolute;
