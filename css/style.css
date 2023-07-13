@@ -51,6 +51,7 @@ a.links:active {
     left: 200px;
     top: 180px;
     display: inline;
+    background-color: aquamarine;
 
 }
 .parrafoIndex1 {
@@ -59,12 +60,14 @@ a.links:active {
     top: 400px;
     font-size: 30px;
     width: 450px;
+    background-color: antiquewhite;
+    text-align: center;
 }
 
 .videoIndex {
     position: absolute;
     top: 150px;
-    left: 50%;
+    left: 1000px;
     display: inline-block;
 }
 .botonIndex {
@@ -95,6 +98,7 @@ body h2 {
     position: absolute;
     top: 900px;
     left: 880px;
+    background-color: aquamarine;
 }
 .album5 {
     height: 300px;
@@ -136,6 +140,7 @@ body h2 {
     top: 1320px;
     left: 250px;
     font-size: 25px;
+    background-color: antiquewhite;
 }
 #pieDePagina {
     background-image: url(../img/BANNER\ feid.jpg);
