@@ -45,6 +45,26 @@ a.links:hover {
 a.links:active {
     color: black;
 }
+.navBibIndex {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navMerchIndex {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navProxSIndex {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navContIndex {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
 .h1Index {
     position: absolute;
     font-size: 40px;
@@ -304,6 +324,110 @@ a.linkFooter5:active {
         background-color: aquamarine;
         text-align: center;
 
+    }
+    .backgroundNavIndex {
+        background-color: #2b3136;
+        height: 120px;
+    }
+    .navBibIndex {
+        position: absolute;
+        top: 95px;
+        left: 0px;
+        width: 100px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navBibIndex:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navBibIndex:active {
+        color: black;
+        border-color: black;
+    }
+    .navMerchIndex {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 95px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navMerchIndex:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navMerchIndex:active {
+        color: black;
+        border-color: black;
+    }
+    .navProxSIndex {
+        position: absolute;
+        left: 0px;
+        width: 129px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navProxSIndex:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navProxSIndex:active {
+        color: black;
+        border-color: black;
+    }
+    .navContIndex {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navContIndex:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navContIndex:active {
+        color: black;
+        border-color: black;
     }
     .videoIndex {
         display: none;
@@ -570,6 +694,26 @@ a.linkFooter5:active {
     top: 150px;
     display: inline;
 }
+.navBibBib {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navMerchBib {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navProxSBib {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
+.navContBib {
+    text-decoration: none;
+    /* display: none; */
+    visibility: hidden;
+}
 .feid1 {
     position: absolute;
     top: 350px;
@@ -784,11 +928,116 @@ a.linkFooter5Bibliografia:active {
         background-image: url(../img/fondo1.jpg);
         background-size: 400px;
     }
+    .backgroundNavBib {
+        background-color: #2b3136;
+        height: 120px;
+    }
+    .navBibBib {
+        position: absolute;
+        top: 95px;
+        left: 0px;
+        width: 100px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navBibBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navBibBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navMerchBib {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 95px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navMerchBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navMerchBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navProxSBib {
+        position: absolute;
+        left: 0px;
+        width: 129px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navProxSBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navProxSBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navContBib {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navContBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navContBib:active {
+        color: black;
+        border-color: black;
+    }
+
     .h1Bibliografia {
         position: absolute;
         font-size: 40px;
         left: 125px;
-        top: 150px;
+        top: 250px;
         width: 150px;
         text-align: center;
         display: inline;
@@ -1123,13 +1372,13 @@ td:hover {
         left: 65px;
         width: 270px;
         text-align: center;
-        top: 150px;
+        top: 300px;
         display: inline;
         background-color: aquamarine;
     }
     .tablaMerchandising {
         position: absolute;
-        top: 250px;
+        top: 400px;
         left: 0px;
         padding: 3px;
         background-color: darkseagreen;
@@ -1150,28 +1399,28 @@ td:hover {
     }
     .sixdo {
         position: absolute;
-        top:550px;
+        top:750px;
         left: 25px;
         width: 350px;
         height: 370px;
     }
     .felizCumpleFerxxo {
         position: absolute;
-        top: 950px;
+        top: 1150px;
         left: 25px;
         width: 350px;
         height: 370px;
     }
     .interShibuyaLM {
         position: absolute;
-        top: 1350px;
+        top: 1550px;
         left: 25px;
         width: 350px;
         height: 370px;
     }
     .mor {
         position: absolute;
-        top: 1750px;
+        top: 1950px;
         left: 25px;
         width: 350px;
         height: 370px;
@@ -1182,6 +1431,7 @@ td:hover {
         left: 25px;
         width: 350px;
         height: 350px;
+        visibility: hidden;
     }
     .remeraBlanca {
         position: absolute;
@@ -1192,8 +1442,9 @@ td:hover {
         visibility: hidden;
     }
     
+    
     /* PROXIMOS SHOWS */
-    .h1ProximosShows {
+/*     .h1ProximosShows {
         position: absolute;
         font-size: 40px;
         left: 400px;
@@ -1302,6 +1553,7 @@ td:hover {
         background-color: rgb(0, 255, 242);
         font-size: 40px;
     }
+} */
 }
 /* PROXIMOS SHOWS */
 .h1ProximosShows {
@@ -1418,11 +1670,15 @@ td:hover {
         background-image: url(../img/fondo1.jpg);
         background-size: 400px;
     }
+    .backgroundNavProxS {
+        background-color: #2b3136;
+        height: 120px;
+    }
     .h1ProximosShows {
         position: absolute;
         font-size: 40px;
         left: 50px;
-        top: 150px;
+        top: 250px;
         width: 300px;
         display: inline;
         background-color: aquamarine;
@@ -1432,14 +1688,14 @@ td:hover {
         position: absolute;
         font-size: 30px;
         left: 150px;
-        top: 250px;
+        top: 350px;
         width: 100px;
         display: inline;
         background-color: aquamarine;
     }
     .tablaProximosShows {
         position: absolute;
-        top: 300px;
+        top: 390px;
         left: 20px;
         padding: 5px;
         background-color: darkseagreen;
@@ -1711,7 +1967,7 @@ td:hover {
         position: absolute;
         font-size: 40px;
         left: 20px;
-        top: 120px;
+        top: 250px;
         display: inline;
         background-color: aquamarine;
         text-align: center;
@@ -1721,7 +1977,7 @@ td:hover {
         position: absolute;
         font-size: 30px;
         left: 70px;
-        top: 290px;
+        top: 390px;
         display: inline;
         width: 250px;
         background-color: beige;
@@ -1729,13 +1985,13 @@ td:hover {
     .EjNombreContacto {
         position: absolute;
         left: 20px;
-        top: 350px;
+        top: 450px;
         height: 30px;
         width: 280px;
     }
     .BotonFormularioNombre {
         position: absolute;
-        top: 350px;
+        top: 450px;
         left: 300px;
         height: 30px;
         width: 75px;
@@ -1746,7 +2002,7 @@ td:hover {
         position: absolute;
         font-size: 30px;
         left: 155px;
-        top: 430px;
+        top: 530px;
         display: inline;
         width: 80px;
         background-color: beige;
@@ -1755,13 +2011,13 @@ td:hover {
     .EjEmailContacto {
         position: absolute;
         left: 20px;
-        top: 490px;
+        top: 590px;
         height: 30px;
         width: 280px;
     }
     .BotonFormularioEmail {
         position: absolute;
-        top: 490px;
+        top: 590px;
         left: 300px;
         height: 30px;
         width: 75px;
@@ -1772,7 +2028,7 @@ td:hover {
         position: absolute;
         font-size: 30px;
         left: 135px;
-        top: 570px;
+        top: 670px;
         display: inline;
         background-color: beige;
         text-align: center;
@@ -1781,13 +2037,13 @@ td:hover {
     .EjTelefonoContacto {
         position: absolute;
         left: 20px;
-        top: 630px;
+        top: 730px;
         height: 30px;
         width: 280px;
     }
     .BotonFormularioTelefono {
         position: absolute;
-        top: 630px;
+        top: 730px;
         left: 300px;
         height: 30px;
         width: 75px;
@@ -1798,14 +2054,14 @@ td:hover {
         position: absolute;
         font-size: 35px;
         left: 135px;
-        top: 750px;
+        top: 850px;
         display: inline;
         width: 120px;
         text-align: center;
     }
     .tablaContacto {
         position: absolute;
-        top: 850px;
+        top: 950px;
         left: 20px;
         padding: 5px;
         background-color: darkseagreen;
@@ -1826,7 +2082,7 @@ td:hover {
         position: absolute;
         font-size: 30px;
         left: 20px;
-        top: 1070px;
+        top: 1170px;
         display: inline;
         background-color: beige;
         width: 350px;
@@ -1835,13 +2091,13 @@ td:hover {
     .MDPContacto {
         position: absolute;
         left: 120px;
-        top: 1170px;
+        top: 1270px;
         width: 150px;
     }
     .consultaContacto {
         position: absolute;
         left: 70px;
-        top: 1300px;
+        top: 1400px;
         font-size: 30px;
         background-color: beige;
         width: 250px;
@@ -1850,7 +2106,7 @@ td:hover {
     .textAreaContacto {
         position: absolute;
         left: 45px;
-        top: 1400px;
+        top: 1500px;
         border: 5px black solid;
         width: 300px;
         height: 200px;
@@ -1858,7 +2114,7 @@ td:hover {
     .opcionContacto {
         position: absolute;
         left: 70px;
-        top: 1800px;
+        top: 1900px;
         font-size: 30px;
         background-color: beige;
         text-align: center;
@@ -1868,38 +2124,38 @@ td:hover {
     .radioContactoSi {
         position: absolute;
         left: 200px;
-        top: 2000px;
+        top: 2100px;
     }
     .txt1Contacto {
         position: absolute;
         left: 180px;
-        top: 1990px;
+        top: 2090px;
         font-size: 20px;
         background-color: beige;
     }
     .radioContactoNo {
         position: absolute;
         left: 200px;
-        top: 2050px;
+        top: 2150px;
     }
     .txt2Contacto {
         position: absolute;
         left: 165px;
-        top: 2040px;
+        top: 2140px;
         font-size: 20px;
         background-color: beige;
     }
     .confirmarContacto {
         position: absolute;
         left: 120px;
-        top: 2200px;
+        top: 2300px;
         font-size: 30px;
         width: 150px;
     }
     .reiniciarContacto {
         position: absolute;
         left: 120px;
-        top: 2300px;
+        top: 2400px;
         font-size: 30px;
         width: 150px;
     }

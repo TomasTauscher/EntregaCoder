@@ -11,116 +11,132 @@
 <body>
     <header id="encabezado">
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
             <div class="">
-                <a class="">
+                <a class="navbar-brand">
                 <img src="../img/Feid Logo.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
                 </a>
             </div>
             <div class="">
-            <a class="navbar-brand" href="../index.html">FEID</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a class="navbar-brand" href="../index.html">FEID</a>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./bibliografia.html">Bibliografía</a>
+                    <a class="nav-link active" aria-current="page" href="../pages/bibliografia.html">Bibliografía</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./merchandising.html">Merchandising</a>
+                    <a class="nav-link active" href="../pages/merchandising.html">Merchandising</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./proximosShows.html">Proximos Shows</a>
+                    <a class="nav-link active" href="../pages/proximosShows.html">Proximos Shows</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./contacto.html">Contacto</a>
+                    <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
                 </li>
                 </ul>
-            </div>
             </div>
         </nav>
     </header>
 
-    <div>
-        <h1 class="h1Contacto">Reservá tu lugar en el próximo show</h1>
-    </div>
+    <main>
 
-    <div>
-        <form action=""> 
+        <div class="backgroundNavProxS">
+            <ul>
+                <li>
+                    <a href="./bibliografia.html" class="navBibBib">Bibliografía</a>
+                </li>
+                <li>
+                    <a href="./merchandising.html" class="navMerchBib">Merchandising</a>
+                </li>
+                <li>
+                    <a href="./proximosShows.html" class="navProxSBib">Proximos Shows</a>
+                </li>
+                <li>
+                    <a href="./contacto.html" class="navContBib">Contacto</a>
+                </li>
+            </ul>
+        </div>
 
-            <label for="nombre" class="nombreContacto">Nombre Completo</label>
-            <input type="text" id="" placeholder="Ej. Salomón Villada Hoyos" required class="EjNombreContacto"> 
-            <input type="submit" value="Enviar" class="BotonFormularioNombre">
+        <div>
+            <h1 class="h1Contacto">Reservá tu lugar en el próximo show</h1>
+        </div>
+
+        <div>
+            <form action=""> 
+
+                <label for="nombre" class="nombreContacto">Nombre Completo</label>
+                <input type="text" id="" placeholder="Ej. Salomón Villada Hoyos" required class="EjNombreContacto"> 
+                <input type="submit" value="Enviar" class="BotonFormularioNombre">
     
-            <label for="mail" class="emailContacto">Email</label>
-            <input type="email" id="" placeholder="Ej. salomón@gmail.com" required class="EjEmailContacto">
-            <input type="submit" value="Enviar" class="BotonFormularioEmail">
+                <label for="mail" class="emailContacto">Email</label>
+                <input type="email" id="" placeholder="Ej. salomón@gmail.com" required class="EjEmailContacto">
+                <input type="submit" value="Enviar" class="BotonFormularioEmail">
 
 
-            <label for="telefono" class="telefonoContacto">Telefono</label>
-            <input type="tel" id="" placeholder="Ej. 44440000" required class="EjTelefonoContacto">
-            <input type="submit" value="Enviar" class="BotonFormularioTelefono">
+                <label for="telefono" class="telefonoContacto">Telefono</label>
+                <input type="tel" id="" placeholder="Ej. 44440000" required class="EjTelefonoContacto">
+                <input type="submit" value="Enviar" class="BotonFormularioTelefono">
 
-        </form>
+            </form>
 
-            <h2 class="h2Contacto">Agosto</h2>
-            <table border="1" cellpading="10" class="tablaContacto">
-                <tr>
-                    <th>Domingo</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miércoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                    <th>Sábado</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td class="show11Contacto">11</td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td>13</td>
-                    <td class="show14Contacto">14</td>
-                    <td>15</td>
-                    <td class="show16Contacto">16</td>
-                    <td>17</td>
-                    <td>18</td>
-                    <td>19</td>
-                </tr>
-                <tr>
-                    <td>20</td>
-                    <td>21</td>
-                    <td>22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td class="show26Contacto">26</td>
-                </tr>
-                <tr>
-                    <td>27</td>
-                    <td>28</td>
-                    <td>29</td>
-                    <td>30</td>
-                    <td>31</td>
-                    <td></td>
-                    <td></td>
-                </tr> 
-          </table>
+                <h2 class="h2Contacto">Agosto</h2>
+                <table border="1" cellpading="10" class="tablaContacto">
+                    <tr>
+                        <th>Domingo</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td class="show11Contacto">11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td class="show14Contacto">14</td>
+                        <td>15</td>
+                        <td class="show16Contacto">16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td class="show26Contacto">26</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+            </table>
         
             <label for="metodoDePago" class="EMPContacto">Elija su Método de Pago</label>
             <select name="metodoDePago" class="MDPContacto">
@@ -142,7 +158,9 @@
             <input type="submit" value="Confirmar" class="confirmarContacto">
             <input type="reset" value="Reiniciar" class="reiniciarContacto">
 
-    </div>
+        </div>
+
+    </main>
 
     <footer id="pieDePagina">
         <div>
