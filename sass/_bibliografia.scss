@@ -1,0 +1,608 @@
+body {
+    .h1Bibliografia {
+    position: absolute;
+    font-size: 40px;
+    left: 100px;
+    top: 150px;
+    display: inline;
+    }
+    .navBibBib {
+        text-decoration: none;
+        /* display: none; */
+        visibility: hidden;
+    }
+    .navMerchBib {
+        text-decoration: none;
+        /* display: none; */
+        visibility: hidden;
+    }
+    .navProxSBib {
+        text-decoration: none;
+        /* display: none; */
+        visibility: hidden;
+    }
+    .navContBib {
+        text-decoration: none;
+        /* display: none; */
+        visibility: hidden;
+    }
+    .feid1 {
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        width: 300px;
+    }
+    .parrafoBibliografia1 {
+        position: absolute;
+        top: 350px;
+        left: 450px;
+        font-size: 26px;
+        width: 1200px;
+        font-style: italic;
+        background-color: aquamarine;
+    }
+    .feid2 {
+        position: absolute;
+        top: 700px;
+        left: 100px;
+        width: 300px;
+    }
+    .parrafoBibliografia2 {
+        position: absolute;
+        top: 700px;
+        left: 450px;
+        font-size: 26px;
+        width: 1200px;
+        font-style: italic;
+        background-color: aquamarine;
+    }
+    .videoBibliografia1 {
+        position: absolute;
+        top: 1000px;
+        left: 75px;
+        display: inline-block;
+    }
+    .videoBibliografia2 {
+        position: absolute;
+        top: 1000px;
+        left: 675px;
+        display: inline-block; 
+    }
+    .videoBibliografia3 {
+        position: absolute;
+        top: 1000px;
+        left: 1275px;
+        display: inline-block;  
+    }
+    .parrafoBibliografia3 {
+        position: absolute;
+        top: 1330px;
+        left: 90px;
+        font-size: 20px;
+        width: 1720px;
+        text-align: center;
+        background-color: aquamarine;
+        padding: 5px;
+    }
+    #carouselExampleIndicators {
+        width: 800px;
+        height: auto;
+        margin: 0 auto;
+        top: 1400px;
+    }
+    #pieDePaginaBibliografia {
+        background-image: url(../img/BANNER\ feid.jpg);
+        overflow: hidden;
+    }
+    .parrafoBibliografia4 {
+        position: absolute;
+        top: 2200px;
+        left: 100px;
+    }
+    .twitterBibliografia {
+        position: absolute;
+        top: 2190px;
+        left: 270px;
+        height: 40px;
+    }
+    .instagramBibliografia {
+        position: absolute;
+        top: 2190px;
+        left: 310px;
+        height: 40px;
+    }
+    .youtubeBibliografia {
+        position: absolute;
+        top: 2190px;
+        left: 370px;
+        height: 40px;
+    }
+    .registrateBibliografia {
+        position: absolute;
+        top: 2190px;
+        left: 1200px;
+        height: 40px;
+    }
+    .renglonBibliografia {
+        position: absolute;
+        top: 2180px;
+        left: 1300px;
+        height: 40px;
+    }
+    .botonEnviarFooterBibliografia {
+        position: absolute;
+        top: 2180px;
+        left: 1472px;
+        height: 44px;
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+    .linkFooter1Bibliografia {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2300px;
+        left: 700px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        padding: 5px;
+    }
+    a.linkFooter1Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter1Bibliografia:active {
+        color: black;
+    }
+    .linkFooter2Bibliografia{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2300px;
+        left: 750px;
+        border-style:solid;
+        border-top: 10px;
+        border-bottom: 10px;
+        padding: 5px;
+    }
+    a.linkFooter2Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter2Bibliografia:active {
+        color: black;
+    }
+    .linkFooter3Bibliografia{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2300px;
+        left: 871px;
+        border-style:solid;
+        border-top: 10px;
+        border-bottom: 10px;
+        padding: 5px;
+    }
+    a.linkFooter3Biblioteca:hover {
+        color: green;
+    }
+    a.linkFooter3Bibliografia:active {
+        color: black;
+    }
+    .linkFooter4Bibliografia{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2300px;
+        left: 1019px;
+        border-style:solid;
+        border-top: 10px;
+        border-bottom: 10px;
+        padding: 5px;
+    }
+    a.linkFooter4Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter4Bibliografia:active {
+        color: black;
+    }
+    .linkFooter5Bibliografia{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 2300px;
+        left: 1181px;
+        border-style:solid;
+        border-right: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        padding: 5px;
+    }
+    a.linkFooter5Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter5Bibliografia:active {
+        color: black;
+    }
+    .derechosBibliografia {
+        position: absolute;
+        top: 2350px;
+        left: 800px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 400px;
+            .backgroundNavBib {
+        background-color: #2b3136;
+        height: 120px;
+        }
+        .navBibBib {
+            position: absolute;
+            top: 95px;
+            left: 0px;
+            width: 100px;
+            visibility: visible;
+            color: black;
+            font-size: 14px;
+            margin: 15px;
+            padding: 10px;
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 5px;
+            background-color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+    a.navBibBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navBibBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navMerchBib {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 95px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navMerchBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navMerchBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navProxSBib {
+        position: absolute;
+        left: 0px;
+        width: 129px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navProxSBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navProxSBib:active {
+        color: black;
+        border-color: black;
+    }
+    .navContBib {
+        position: absolute;
+        left: 260px;
+        width: 113px;
+        top: 150px;
+        visibility: visible;
+        color: black;
+        font-size: 14px;
+        margin: 15px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.navContBib:hover {
+        color: green;
+        border-color: green;
+    }
+    a.navContBib:active {
+        color: black;
+        border-color: black;
+    }
+
+    .h1Bibliografia {
+        position: absolute;
+        font-size: 40px;
+        left: 125px;
+        top: 250px;
+        width: 150px;
+        text-align: center;
+        display: inline;
+        background-color: aquamarine;
+    }
+    .feid1 {
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        width: 300px;
+    }
+    .parrafoBibliografia1 {
+        position: absolute;
+        top: 670px;
+        left: 50px;
+        font-size: 16px;
+        width: 300px;
+        font-style: italic;
+        background-color: aquamarine;
+        text-align: center;
+    }
+    .feid2 {
+        position: absolute;
+        top: 1150px;
+        left: 50px;
+        width: 300px;
+
+    }
+    .parrafoBibliografia2 {
+        position: absolute;
+        top: 1420px;
+        left: 50px;
+        font-size: 16px;
+        width: 300px;
+        font-style: italic;
+        background-color: aquamarine;
+        text-align: center;
+
+    }
+    .videoBibliografia1 {
+        position: absolute;
+        top: 1800px;
+        left: 25px;
+        display: inline-block;
+        width: 350px;
+
+    }
+    .videoBibliografia2 {
+        position: absolute;
+        top: 2130px;
+        left: 25px;
+        display: inline-block;
+        width: 350px;
+    }
+    .videoBibliografia3 {
+        position: absolute;
+        top: 2460px;
+        left: 25px;
+        display: inline-block;  
+        width: 350px;
+    }
+    .parrafoBibliografia3 {
+        position: absolute;
+        top: 2790px;
+        left: 25px;
+        font-size: 16px;
+        width: 350px;
+        text-align: center;
+        background-color: aquamarine;
+        padding: 5px;
+    }
+    #carouselExampleIndicators {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        top: 2950px;
+
+    }
+    #pieDePaginaBibliografia {
+        background-color: gray;
+
+    }
+    .parrafoBibliografia4 {
+        position: absolute;
+        top: 3450px;
+        left: 20px;
+        background-color: black;
+        padding: 5px;
+        color: white;
+    }
+    .twitterBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 200px;
+        height: 40px;
+    }
+    .instagramBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 250px;
+        height: 40px;
+    }
+    .youtubeBibliografia {
+        position: absolute;
+        top: 3450px;
+        left: 320px;
+        height: 40px;
+    }
+    .registrateBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+    .renglonBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 110px;
+        height: 40px;
+    }
+    .botonEnviarFooterBibliografia {
+        position: absolute;
+        top: 3600px;
+        left: 290px;
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+    .linkFooter1Bibliografia {
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3650px;
+        left: 175px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 50px;
+        text-align: center;
+    }
+    a.linkFooter1Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter1Bibliografia:active {
+        color: black;
+    }
+    .linkFooter2Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3700px;
+        left: 142px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 115px;
+        text-align: center;
+    }
+    a.linkFooter2Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter2Bibliografia:active {
+        color: black;
+    }
+    .linkFooter3Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3750px;
+        left: 130px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 140px;
+        text-align: center;
+    }
+    a.linkFooter3Biblioteca:hover {
+        color: green;
+    }
+    a.linkFooter3Bibliografia:active {
+        color: black;
+    }
+    .linkFooter4Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3800px;
+        left: 150px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 100px;
+        text-align: center;
+    }
+    a.linkFooter4Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter4Bibliografia:active {
+        color: black;
+    }
+    .linkFooter5Bibliografia{
+        background-color: aquamarine;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        position:absolute;
+        top: 3880px;
+        left: 155px;
+        border-style:solid;
+        border-left: 10px;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-right: 10px;
+        padding: 5px;
+        width: 90px;
+        text-align: center;
+    }
+    a.linkFooter5Bibliografia:hover {
+        color: green;
+    }
+    a.linkFooter5Bibliografia:active {
+        color: black;
+    }
+    .derechosBibliografia {
+        position: absolute;
+        top: 3950px;
+        left: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    }
+}

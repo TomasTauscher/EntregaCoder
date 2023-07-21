@@ -1,0 +1,2194 @@
+body {
+  background-image: url(../img/fondo1.jpg);
+  background-size: cover;
+}
+body header #encabezado {
+  background-image: url(../img/BANNER\ feid.jpg);
+  height: 100px;
+  overflow: hidden;
+}
+body header #logo {
+  width: 100px;
+  height: auto;
+  display: inline;
+}
+body main .navBibIndex {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body main .navMerchIndex {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body main .navProxSIndex {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body main .navContIndex {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body main .h1Index {
+  position: absolute;
+  font-size: 40px;
+  left: 200px;
+  top: 180px;
+  display: inline;
+  background-color: aquamarine;
+}
+body main .parrafoIndex1 {
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  font-size: 30px;
+  width: 450px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+body main .videoIndex {
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+  display: inline-block;
+}
+body main .botonIndex {
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  text-decoration: none;
+  width: 150px;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+body main a.botonIndex:hover {
+  color: green;
+  border-color: green;
+}
+body main a.botonIndex:active {
+  color: black;
+  border-color: black;
+}
+body main .discografia {
+  position: absolute;
+  top: 930px;
+  left: 865px;
+}
+body main .album5 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+}
+body main .album4 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 450px;
+}
+body main .album3 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 800px;
+}
+body main .album2 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 1150px;
+}
+body main .album1 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 1500px;
+}
+body main .parrafoIndex2 {
+  position: absolute;
+  top: 1320px;
+  left: 250px;
+  font-size: 25px;
+  background-color: antiquewhite;
+}
+body #pieDePagina {
+  background-image: url(../img/BANNER\ feid.jpg);
+  /* position: absolute; */
+  /* height: 1000px; */
+  overflow: hidden;
+}
+body #pieDePagina .parrafoIndex3 {
+  position: absolute;
+  top: 1500px;
+  left: 100px;
+}
+body #pieDePagina .twitter {
+  position: absolute;
+  top: 1490px;
+  left: 270px;
+  height: 40px;
+}
+body #pieDePagina .instagram {
+  position: absolute;
+  top: 1490px;
+  left: 310px;
+  height: 40px;
+}
+body #pieDePagina .youtube {
+  position: absolute;
+  top: 1490px;
+  left: 370px;
+  height: 40px;
+}
+body #pieDePagina .registrate {
+  position: absolute;
+  top: 1490px;
+  left: 1200px;
+  height: 40px;
+}
+body #pieDePagina .renglon {
+  position: absolute;
+  top: 1480px;
+  left: 1300px;
+  height: 40px;
+}
+body #pieDePagina .botonEnviarPieDePagina {
+  position: absolute;
+  top: 1480px;
+  left: 1472px;
+  height: 44px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+body #pieDePagina .linkFooter1 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 700px;
+  border-style: solid;
+  border-left: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePagina a.linkFooter1:hover {
+  color: green;
+}
+body #pieDePagina a.linkFooter1:active {
+  color: black;
+}
+body #pieDePagina .linkFooter2 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 750px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePagina a.linkFooter2:hover {
+  color: green;
+}
+body #pieDePagina a.linkFooter2:active {
+  color: black;
+}
+body #pieDePagina .linkFooter3 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 871px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePagina a.linkFooter3:hover {
+  color: green;
+}
+body #pieDePagina a.linkFooter3:active {
+  color: black;
+}
+body #pieDePagina .linkFooter4 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 1019px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePagina a.linkFooter4:hover {
+  color: green;
+}
+body #pieDePagina a.linkFooter4:active {
+  color: black;
+}
+body #pieDePagina .linkFooter5 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 1181px;
+  border-style: solid;
+  border-right: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePagina a.linkFooter5:hover {
+  color: green;
+}
+body #pieDePagina a.linkFooter5:active {
+  color: black;
+}
+body #pieDePagina .derechos {
+  position: absolute;
+  top: 1650px;
+  left: 800px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(../img/fondo1.jpg);
+    background-size: 400px;
+  }
+  body .h1Index {
+    position: absolute;
+    font-size: 40px;
+    left: 165px;
+    top: 240px;
+    width: 70px;
+    display: inline;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  body .backgroundNavIndex {
+    background-color: #2b3136;
+    height: 120px;
+  }
+  body .navBibIndex {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 100px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navBibIndex:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navBibIndex:active {
+    color: black;
+    border-color: black;
+  }
+  body .navMerchIndex {
+    position: absolute;
+    left: 260px;
+    width: 113px;
+    top: 95px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navMerchIndex:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navMerchIndex:active {
+    color: black;
+    border-color: black;
+  }
+  body .navProxSIndex {
+    position: absolute;
+    left: 0px;
+    width: 129px;
+    top: 150px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navProxSIndex:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navProxSIndex:active {
+    color: black;
+    border-color: black;
+  }
+  body .navContIndex {
+    position: absolute;
+    left: 260px;
+    width: 113px;
+    top: 150px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navContIndex:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navContIndex:active {
+    color: black;
+    border-color: black;
+  }
+  body .videoIndex {
+    display: none;
+  }
+  body .parrafoIndex1 {
+    background-color: antiquewhite;
+    position: absolute;
+    left: 25px;
+    top: 350px;
+    font-size: 15px;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+  }
+  body .botonIndex {
+    position: absolute;
+    top: 500px;
+    left: 125px;
+    text-decoration: none;
+    width: 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  body .discografia {
+    position: absolute;
+    top: 650px;
+    left: 35%;
+    background-color: aquamarine;
+    visibility: hidden;
+  }
+  body .album5 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    visibility: hidden;
+  }
+  body .album4 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 50px;
+    visibility: hidden;
+  }
+  body .album3 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1340px;
+    left: 50px;
+    visibility: hidden;
+  }
+  body .album2 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1660px;
+    left: 50px;
+    visibility: hidden;
+  }
+  body .album1 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1980px;
+    left: 50px;
+    visibility: hidden;
+  }
+  body .parrafoIndex2 {
+    position: absolute;
+    top: 2320px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    left: 25px;
+    font-size: 15px;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body #pieDePagina {
+    background-color: gray;
+    visibility: hidden;
+  }
+  body .parrafoIndex3 {
+    position: absolute;
+    top: 2500px;
+    left: 20px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    visibility: hidden;
+  }
+  body .twitter {
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+    height: 40px;
+    visibility: hidden;
+  }
+  body .instagram {
+    position: absolute;
+    top: 2500px;
+    left: 255px;
+    height: 40px;
+    visibility: hidden;
+  }
+  body .youtube {
+    position: absolute;
+    top: 2500px;
+    left: 330px;
+    height: 40px;
+    visibility: hidden;
+  }
+  body .registrate {
+    position: absolute;
+    top: 2650px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    visibility: hidden;
+  }
+  body .renglon {
+    position: absolute;
+    top: 2650px;
+    left: 110px;
+    height: 40px;
+    visibility: hidden;
+  }
+  body .botonEnviarPieDePagina {
+    position: absolute;
+    top: 2650px;
+    left: 290px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    visibility: hidden;
+  }
+  body .linkFooter1 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 2700px;
+    left: 175px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body a.linkFooter1:hover {
+    color: green;
+  }
+  body a.linkFooter1:active {
+    color: black;
+  }
+  body .linkFooter2 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 2750px;
+    left: 142px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body a.linkFooter2:hover {
+    color: green;
+  }
+  body a.linkFooter2:active {
+    color: black;
+  }
+  body .linkFooter3 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 2800px;
+    left: 130px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 140px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body a.linkFooter3:hover {
+    color: green;
+  }
+  body a.linkFooter3:active {
+    color: black;
+  }
+  body .linkFooter4 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 2850px;
+    left: 150px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body a.linkFooter4:hover {
+    color: green;
+  }
+  body a.linkFooter4:active {
+    color: black;
+  }
+  body .linkFooter5 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 2930px;
+    left: 155px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+    visibility: hidden;
+  }
+  body a.linkFooter5:hover {
+    color: green;
+  }
+  body a.linkFooter5:active {
+    color: black;
+  }
+  body .derechos {
+    position: absolute;
+    top: 3000px;
+    left: 15px;
+    width: 370px;
+    text-align: center;
+    visibility: hidden;
+  }
+}
+body .h1Bibliografia {
+  position: absolute;
+  font-size: 40px;
+  left: 100px;
+  top: 150px;
+  display: inline;
+}
+body .navBibBib {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body .navMerchBib {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body .navProxSBib {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body .navContBib {
+  text-decoration: none;
+  /* display: none; */
+  visibility: hidden;
+}
+body .feid1 {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  width: 300px;
+}
+body .parrafoBibliografia1 {
+  position: absolute;
+  top: 350px;
+  left: 450px;
+  font-size: 26px;
+  width: 1200px;
+  font-style: italic;
+  background-color: aquamarine;
+}
+body .feid2 {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  width: 300px;
+}
+body .parrafoBibliografia2 {
+  position: absolute;
+  top: 700px;
+  left: 450px;
+  font-size: 26px;
+  width: 1200px;
+  font-style: italic;
+  background-color: aquamarine;
+}
+body .videoBibliografia1 {
+  position: absolute;
+  top: 1000px;
+  left: 75px;
+  display: inline-block;
+}
+body .videoBibliografia2 {
+  position: absolute;
+  top: 1000px;
+  left: 675px;
+  display: inline-block;
+}
+body .videoBibliografia3 {
+  position: absolute;
+  top: 1000px;
+  left: 1275px;
+  display: inline-block;
+}
+body .parrafoBibliografia3 {
+  position: absolute;
+  top: 1330px;
+  left: 90px;
+  font-size: 20px;
+  width: 1720px;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 5px;
+}
+body #carouselExampleIndicators {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  top: 1400px;
+}
+body #pieDePaginaBibliografia {
+  background-image: url(../img/BANNER\ feid.jpg);
+  overflow: hidden;
+}
+body .parrafoBibliografia4 {
+  position: absolute;
+  top: 2200px;
+  left: 100px;
+}
+body .twitterBibliografia {
+  position: absolute;
+  top: 2190px;
+  left: 270px;
+  height: 40px;
+}
+body .instagramBibliografia {
+  position: absolute;
+  top: 2190px;
+  left: 310px;
+  height: 40px;
+}
+body .youtubeBibliografia {
+  position: absolute;
+  top: 2190px;
+  left: 370px;
+  height: 40px;
+}
+body .registrateBibliografia {
+  position: absolute;
+  top: 2190px;
+  left: 1200px;
+  height: 40px;
+}
+body .renglonBibliografia {
+  position: absolute;
+  top: 2180px;
+  left: 1300px;
+  height: 40px;
+}
+body .botonEnviarFooterBibliografia {
+  position: absolute;
+  top: 2180px;
+  left: 1472px;
+  height: 44px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+body .linkFooter1Bibliografia {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 700px;
+  border-style: solid;
+  border-left: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body a.linkFooter1Bibliografia:hover {
+  color: green;
+}
+body a.linkFooter1Bibliografia:active {
+  color: black;
+}
+body .linkFooter2Bibliografia {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 750px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body a.linkFooter2Bibliografia:hover {
+  color: green;
+}
+body a.linkFooter2Bibliografia:active {
+  color: black;
+}
+body .linkFooter3Bibliografia {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 871px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body a.linkFooter3Biblioteca:hover {
+  color: green;
+}
+body a.linkFooter3Bibliografia:active {
+  color: black;
+}
+body .linkFooter4Bibliografia {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 1019px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body a.linkFooter4Bibliografia:hover {
+  color: green;
+}
+body a.linkFooter4Bibliografia:active {
+  color: black;
+}
+body .linkFooter5Bibliografia {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 1181px;
+  border-style: solid;
+  border-right: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body a.linkFooter5Bibliografia:hover {
+  color: green;
+}
+body a.linkFooter5Bibliografia:active {
+  color: black;
+}
+body .derechosBibliografia {
+  position: absolute;
+  top: 2350px;
+  left: 800px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(../img/fondo1.jpg);
+    background-size: 400px;
+  }
+  body .backgroundNavBib {
+    background-color: #2b3136;
+    height: 120px;
+  }
+  body .navBibBib {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 100px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navBibBib:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navBibBib:active {
+    color: black;
+    border-color: black;
+  }
+  body .navMerchBib {
+    position: absolute;
+    left: 260px;
+    width: 113px;
+    top: 95px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navMerchBib:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navMerchBib:active {
+    color: black;
+    border-color: black;
+  }
+  body .navProxSBib {
+    position: absolute;
+    left: 0px;
+    width: 129px;
+    top: 150px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navProxSBib:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navProxSBib:active {
+    color: black;
+    border-color: black;
+  }
+  body .navContBib {
+    position: absolute;
+    left: 260px;
+    width: 113px;
+    top: 150px;
+    visibility: visible;
+    color: black;
+    font-size: 14px;
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  body a.navContBib:hover {
+    color: green;
+    border-color: green;
+  }
+  body a.navContBib:active {
+    color: black;
+    border-color: black;
+  }
+  body .h1Bibliografia {
+    position: absolute;
+    font-size: 40px;
+    left: 125px;
+    top: 250px;
+    width: 150px;
+    text-align: center;
+    display: inline;
+    background-color: aquamarine;
+  }
+  body .feid1 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 300px;
+  }
+  body .parrafoBibliografia1 {
+    position: absolute;
+    top: 670px;
+    left: 50px;
+    font-size: 16px;
+    width: 300px;
+    font-style: italic;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  body .feid2 {
+    position: absolute;
+    top: 1150px;
+    left: 50px;
+    width: 300px;
+  }
+  body .parrafoBibliografia2 {
+    position: absolute;
+    top: 1420px;
+    left: 50px;
+    font-size: 16px;
+    width: 300px;
+    font-style: italic;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  body .videoBibliografia1 {
+    position: absolute;
+    top: 1800px;
+    left: 25px;
+    display: inline-block;
+    width: 350px;
+  }
+  body .videoBibliografia2 {
+    position: absolute;
+    top: 2130px;
+    left: 25px;
+    display: inline-block;
+    width: 350px;
+  }
+  body .videoBibliografia3 {
+    position: absolute;
+    top: 2460px;
+    left: 25px;
+    display: inline-block;
+    width: 350px;
+  }
+  body .parrafoBibliografia3 {
+    position: absolute;
+    top: 2790px;
+    left: 25px;
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+  }
+  body #carouselExampleIndicators {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    top: 2950px;
+  }
+  body #pieDePaginaBibliografia {
+    background-color: gray;
+  }
+  body .parrafoBibliografia4 {
+    position: absolute;
+    top: 3450px;
+    left: 20px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+  }
+  body .twitterBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 200px;
+    height: 40px;
+  }
+  body .instagramBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 250px;
+    height: 40px;
+  }
+  body .youtubeBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 320px;
+    height: 40px;
+  }
+  body .registrateBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  body .renglonBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 110px;
+    height: 40px;
+  }
+  body .botonEnviarFooterBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 290px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+  }
+  body .linkFooter1Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3650px;
+    left: 175px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+  }
+  body a.linkFooter1Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter1Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter2Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3700px;
+    left: 142px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+  }
+  body a.linkFooter2Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter2Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter3Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3750px;
+    left: 130px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 140px;
+    text-align: center;
+  }
+  body a.linkFooter3Biblioteca:hover {
+    color: green;
+  }
+  body a.linkFooter3Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter4Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3800px;
+    left: 150px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+  }
+  body a.linkFooter4Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter4Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter5Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3880px;
+    left: 155px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+  }
+  body a.linkFooter5Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter5Bibliografia:active {
+    color: black;
+  }
+  body .derechosBibliografia {
+    position: absolute;
+    top: 3950px;
+    left: 10px;
+    width: 370px;
+    text-align: center;
+  }
+}
+body .h1Merchandising {
+  position: absolute;
+  font-size: 40px;
+  left: 400px;
+  top: 120px;
+  display: inline;
+}
+body .tablaMerchandising {
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  padding: 5px;
+  background-color: darkseagreen;
+}
+body th {
+  background-color: forestgreen;
+  color: white;
+  font-size: 24px;
+}
+body td {
+  background-color: lawngreen;
+  color: black;
+  font-size: 20px;
+}
+body td:hover {
+  background-color: #aaa;
+}
+body .sixdo {
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  height: 500px;
+}
+body .felizCumpleFerxxo {
+  position: absolute;
+  top: 420px;
+  left: 725px;
+  height: 500px;
+}
+body .interShibuyaLM {
+  position: absolute;
+  top: 420px;
+  left: 1350px;
+  height: 500px;
+}
+body .mor {
+  position: absolute;
+  top: 950px;
+  left: 100px;
+  height: 500px;
+}
+body .remeraNegra {
+  position: absolute;
+  top: 950px;
+  left: 725px;
+  height: 500px;
+  width: 450px;
+}
+body .remeraBlanca {
+  position: absolute;
+  top: 950px;
+  left: 1350px;
+  height: 500px;
+  width: 450px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(../img/fondo1.jpg);
+    background-size: 400px;
+  }
+  body .h1Merchandising {
+    position: absolute;
+    font-size: 40px;
+    left: 65px;
+    width: 270px;
+    text-align: center;
+    top: 300px;
+    display: inline;
+    background-color: aquamarine;
+  }
+  body .tablaMerchandising {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    padding: 3px;
+    background-color: darkseagreen;
+    text-align: center;
+  }
+  body th {
+    background-color: forestgreen;
+    color: white;
+    font-size: 14px;
+  }
+  body td {
+    background-color: lawngreen;
+    color: black;
+    font-size: 14px;
+  }
+  body td:hover {
+    background-color: #aaa;
+  }
+  body .sixdo {
+    position: absolute;
+    top: 750px;
+    left: 25px;
+    width: 350px;
+    height: 370px;
+  }
+  body .felizCumpleFerxxo {
+    position: absolute;
+    top: 1150px;
+    left: 25px;
+    width: 350px;
+    height: 370px;
+  }
+  body .interShibuyaLM {
+    position: absolute;
+    top: 1550px;
+    left: 25px;
+    width: 350px;
+    height: 370px;
+  }
+  body .mor {
+    position: absolute;
+    top: 1950px;
+    left: 25px;
+    width: 350px;
+    height: 370px;
+  }
+  body .remeraNegra {
+    position: absolute;
+    top: 2130px;
+    left: 25px;
+    width: 350px;
+    height: 350px;
+    visibility: hidden;
+  }
+  body .remeraBlanca {
+    position: absolute;
+    top: 950px;
+    left: 1350px;
+    height: 500px;
+    width: 450px;
+    visibility: hidden;
+  }
+  body #pieDePagina {
+    background-color: gray;
+  }
+  body .parrafoIndex3 {
+    position: absolute;
+    top: 3450px;
+    left: 20px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+  }
+  body .twitterBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 200px;
+    height: 40px;
+  }
+  body .instagramBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 250px;
+    height: 40px;
+  }
+  body .youtubeBibliografia {
+    position: absolute;
+    top: 3450px;
+    left: 320px;
+    height: 40px;
+  }
+  body .registrateBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  body .renglonBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 110px;
+    height: 40px;
+  }
+  body .botonEnviarFooterBibliografia {
+    position: absolute;
+    top: 3600px;
+    left: 290px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+  }
+  body .linkFooter1Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3650px;
+    left: 175px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+  }
+  body a.linkFooter1Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter1Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter2Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3700px;
+    left: 142px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+  }
+  body a.linkFooter2Bibliografia:hover {
+    color: green;
+  }
+  body a.linkFooter2Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter3Bibliografia {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3750px;
+    left: 130px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 140px;
+    text-align: center;
+  }
+  body a.linkFooter3Biblioteca:hover {
+    color: green;
+  }
+  body a.linkFooter3Bibliografia:active {
+    color: black;
+  }
+  body .linkFooter4 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3800px;
+    left: 150px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+  }
+  body a.linkFooter4:hover {
+    color: green;
+  }
+  body a.linkFooter4:active {
+    color: black;
+  }
+  body .linkFooter5 {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 3880px;
+    left: 155px;
+    border-style: solid;
+    border-left: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+  }
+  body a.linkFooter5:hover {
+    color: green;
+  }
+  body a.linkFooter5:active {
+    color: black;
+  }
+  body .derechos {
+    position: absolute;
+    top: 3950px;
+    left: 10px;
+    width: 370px;
+    text-align: center;
+  }
+}
+body .h1ProximosShows {
+  position: absolute;
+  font-size: 40px;
+  left: 400px;
+  top: 120px;
+  display: inline;
+}
+body .h2ProximosShows {
+  position: absolute;
+  font-size: 30px;
+  left: 850px;
+  top: 250px;
+  display: inline;
+}
+body .tablaProximosShows {
+  position: absolute;
+  top: 300px;
+  left: 580px;
+  padding: 5px;
+  background-color: darkseagreen;
+}
+body .show11 {
+  background-color: rgb(0, 255, 242);
+}
+body .show14 {
+  background-color: rgb(0, 255, 242);
+}
+body .show16 {
+  background-color: rgb(0, 255, 242);
+}
+body .show26 {
+  background-color: rgb(0, 255, 242);
+}
+body .lawngreen {
+  position: absolute;
+  top: 495px;
+  left: 1230px;
+}
+body .fss {
+  position: absolute;
+  top: 493px;
+  left: 1250px;
+}
+body .aqua {
+  position: absolute;
+  top: 465px;
+  left: 1230px;
+}
+body .fds {
+  position: absolute;
+  top: 463px;
+  left: 1250px;
+}
+body .mapaRM {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  height: 400px;
+}
+body .txt11 {
+  position: absolute;
+  top: 540px;
+  left: 100px;
+  color: black;
+  background-color: rgb(0, 255, 242);
+  font-size: 40px;
+}
+body .mapaTZM {
+  position: absolute;
+  top: 600px;
+  right: 100px;
+  height: 400px;
+}
+body .txt14 {
+  position: absolute;
+  top: 540px;
+  right: 100px;
+  color: black;
+  background-color: rgb(0, 255, 242);
+  font-size: 40px;
+}
+body .mapaMC {
+  position: absolute;
+  top: 1070px;
+  left: 100px;
+  height: 400px;
+}
+body .txt16 {
+  position: absolute;
+  top: 1010px;
+  left: 100px;
+  color: black;
+  background-color: rgb(0, 255, 242);
+  font-size: 40px;
+}
+body .mapaD {
+  position: absolute;
+  top: 1070px;
+  right: 100px;
+  height: 400px;
+}
+body .txt26 {
+  position: absolute;
+  top: 1010px;
+  right: 100px;
+  color: black;
+  background-color: rgb(0, 255, 242);
+  font-size: 40px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(../img/fondo1.jpg);
+    background-size: 400px;
+  }
+  body .backgroundNavProxS {
+    background-color: #2b3136;
+    height: 120px;
+  }
+  body .h1ProximosShows {
+    position: absolute;
+    font-size: 40px;
+    left: 50px;
+    top: 250px;
+    width: 300px;
+    display: inline;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  body .h2ProximosShows {
+    position: absolute;
+    font-size: 30px;
+    left: 150px;
+    top: 350px;
+    width: 100px;
+    display: inline;
+    background-color: aquamarine;
+  }
+  body .tablaProximosShows {
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    padding: 5px;
+    background-color: darkseagreen;
+  }
+  body .show11 {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show14 {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show16 {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show26 {
+    background-color: rgb(0, 255, 242);
+  }
+  body .lawngreen {
+    position: absolute;
+    top: 495px;
+    left: 1230px;
+  }
+  body .fss {
+    position: absolute;
+    top: 493px;
+    left: 1250px;
+  }
+  body .aqua {
+    position: absolute;
+    top: 465px;
+    left: 1230px;
+  }
+  body .fds {
+    position: absolute;
+    top: 463px;
+    left: 1250px;
+  }
+  body .mapaRM {
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    width: 350px;
+  }
+  body .txt11 {
+    position: absolute;
+    top: 530px;
+    left: 20px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+  }
+  body .mapaTZM {
+    position: absolute;
+    top: 1100px;
+    left: 20px;
+    width: 350px;
+  }
+  body .txt14 {
+    position: absolute;
+    top: 1030px;
+    left: 20px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+    width: 45px;
+  }
+  body .mapaMC {
+    position: absolute;
+    top: 1580px;
+    left: 20px;
+    width: 350px;
+  }
+  body .txt16 {
+    position: absolute;
+    top: 1520px;
+    left: 20px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+  }
+  body .mapaD {
+    position: absolute;
+    top: 2080px;
+    left: 20px;
+    width: 350px;
+  }
+  body .txt26 {
+    position: absolute;
+    top: 2010px;
+    left: 20px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+    width: 45px;
+  }
+}
+body .h1Contacto {
+  position: absolute;
+  font-size: 40px;
+  left: 50px;
+  top: 120px;
+  display: inline;
+}
+body .nombreContacto {
+  position: absolute;
+  font-size: 30px;
+  left: 50px;
+  top: 200px;
+  display: inline;
+}
+body .EjNombreContacto {
+  position: absolute;
+  left: 350px;
+  top: 210px;
+  height: 30px;
+}
+body .BotonFormularioNombre {
+  position: absolute;
+  top: 210px;
+  left: 550px;
+  height: 30px;
+  width: 75px;
+  background-color: black;
+  color: white;
+}
+body .emailContacto {
+  position: absolute;
+  font-size: 30px;
+  left: 50px;
+  top: 300px;
+  display: inline;
+}
+body .EjEmailContacto {
+  position: absolute;
+  left: 350px;
+  top: 310px;
+  height: 30px;
+}
+body .BotonFormularioEmail {
+  position: absolute;
+  top: 310px;
+  left: 550px;
+  height: 30px;
+  width: 75px;
+  background-color: black;
+  color: white;
+}
+body .telefonoContacto {
+  position: absolute;
+  font-size: 30px;
+  left: 50px;
+  top: 400px;
+  display: inline;
+}
+body .EjTelefonoContacto {
+  position: absolute;
+  left: 350px;
+  top: 410px;
+  height: 30px;
+}
+body .BotonFormularioTelefono {
+  position: absolute;
+  top: 410px;
+  left: 550px;
+  height: 30px;
+  width: 75px;
+  background-color: black;
+  color: white;
+}
+body .h2Contacto {
+  position: absolute;
+  font-size: 35px;
+  left: 50px;
+  top: 500px;
+  display: inline;
+}
+body .tablaContacto {
+  position: absolute;
+  top: 570px;
+  left: 50px;
+  padding: 5px;
+  background-color: darkseagreen;
+}
+body .show11Contacto {
+  background-color: rgb(0, 255, 242);
+}
+body .show14Contacto {
+  background-color: rgb(0, 255, 242);
+}
+body .show16Contacto {
+  background-color: rgb(0, 255, 242);
+}
+body .show26Contacto {
+  background-color: rgb(0, 255, 242);
+}
+body .EMPContacto {
+  position: absolute;
+  font-size: 30px;
+  left: 50px;
+  top: 800px;
+  display: inline;
+}
+body .MDPContacto {
+  position: absolute;
+  left: 440px;
+  top: 813px;
+}
+body .consultaContacto {
+  position: absolute;
+  left: 50px;
+  top: 900px;
+  font-size: 30px;
+}
+body .textAreaContacto {
+  position: absolute;
+  left: 50px;
+  top: 950px;
+  border: 5px black solid;
+  width: 400px;
+  height: 200px;
+}
+body .opcionContacto {
+  position: absolute;
+  left: 50px;
+  top: 1200px;
+  font-size: 30px;
+}
+body .radioContactoSi {
+  position: absolute;
+  left: 630px;
+  top: 1220px;
+}
+body .txt1Contacto {
+  position: absolute;
+  left: 650px;
+  top: 1213px;
+  font-size: 20px;
+}
+body .radioContactoNo {
+  position: absolute;
+  left: 700px;
+  top: 1220px;
+}
+body .txt2Contacto {
+  position: absolute;
+  left: 720px;
+  top: 1213px;
+  font-size: 20px;
+}
+body .confirmarContacto {
+  position: absolute;
+  left: 50px;
+  top: 1350px;
+  font-size: 30px;
+}
+body .reiniciarContacto {
+  position: absolute;
+  left: 300px;
+  top: 1350px;
+  font-size: 30px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(../img/fondo1.jpg);
+    background-size: 400px;
+  }
+  body .h1Contacto {
+    position: absolute;
+    font-size: 40px;
+    left: 20px;
+    top: 250px;
+    display: inline;
+    background-color: aquamarine;
+    text-align: center;
+    width: 350px;
+  }
+  body .nombreContacto {
+    position: absolute;
+    font-size: 30px;
+    left: 70px;
+    top: 390px;
+    display: inline;
+    width: 250px;
+    background-color: beige;
+  }
+  body .EjNombreContacto {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+    height: 30px;
+    width: 280px;
+  }
+  body .BotonFormularioNombre {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    height: 30px;
+    width: 75px;
+    background-color: black;
+    color: white;
+  }
+  body .emailContacto {
+    position: absolute;
+    font-size: 30px;
+    left: 155px;
+    top: 530px;
+    display: inline;
+    width: 80px;
+    background-color: beige;
+    text-align: center;
+  }
+  body .EjEmailContacto {
+    position: absolute;
+    left: 20px;
+    top: 590px;
+    height: 30px;
+    width: 280px;
+  }
+  body .BotonFormularioEmail {
+    position: absolute;
+    top: 590px;
+    left: 300px;
+    height: 30px;
+    width: 75px;
+    background-color: black;
+    color: white;
+  }
+  body .telefonoContacto {
+    position: absolute;
+    font-size: 30px;
+    left: 135px;
+    top: 670px;
+    display: inline;
+    background-color: beige;
+    text-align: center;
+    width: 120px;
+  }
+  body .EjTelefonoContacto {
+    position: absolute;
+    left: 20px;
+    top: 730px;
+    height: 30px;
+    width: 280px;
+  }
+  body .BotonFormularioTelefono {
+    position: absolute;
+    top: 730px;
+    left: 300px;
+    height: 30px;
+    width: 75px;
+    background-color: black;
+    color: white;
+  }
+  body .h2Contacto {
+    position: absolute;
+    font-size: 35px;
+    left: 135px;
+    top: 850px;
+    display: inline;
+    width: 120px;
+    text-align: center;
+  }
+  body .tablaContacto {
+    position: absolute;
+    top: 950px;
+    left: 20px;
+    padding: 5px;
+    background-color: darkseagreen;
+  }
+  body .show11Contacto {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show14Contacto {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show16Contacto {
+    background-color: rgb(0, 255, 242);
+  }
+  body .show26Contacto {
+    background-color: rgb(0, 255, 242);
+  }
+  body .EMPContacto {
+    position: absolute;
+    font-size: 30px;
+    left: 20px;
+    top: 1170px;
+    display: inline;
+    background-color: beige;
+    width: 350px;
+    text-align: center;
+  }
+  body .MDPContacto {
+    position: absolute;
+    left: 120px;
+    top: 1270px;
+    width: 150px;
+  }
+  body .consultaContacto {
+    position: absolute;
+    left: 70px;
+    top: 1400px;
+    font-size: 30px;
+    background-color: beige;
+    width: 250px;
+    text-align: center;
+  }
+  body .textAreaContacto {
+    position: absolute;
+    left: 45px;
+    top: 1500px;
+    border: 5px black solid;
+    width: 300px;
+    height: 200px;
+  }
+  body .opcionContacto {
+    position: absolute;
+    left: 70px;
+    top: 1900px;
+    font-size: 30px;
+    background-color: beige;
+    text-align: center;
+    width: 250px;
+  }
+  body .radioContactoSi {
+    position: absolute;
+    left: 200px;
+    top: 2100px;
+  }
+  body .txt1Contacto {
+    position: absolute;
+    left: 180px;
+    top: 2090px;
+    font-size: 20px;
+    background-color: beige;
+  }
+  body .radioContactoNo {
+    position: absolute;
+    left: 200px;
+    top: 2150px;
+  }
+  body .txt2Contacto {
+    position: absolute;
+    left: 165px;
+    top: 2140px;
+    font-size: 20px;
+    background-color: beige;
+  }
+  body .confirmarContacto {
+    position: absolute;
+    left: 120px;
+    top: 2300px;
+    font-size: 30px;
+    width: 150px;
+  }
+  body .reiniciarContacto {
+    position: absolute;
+    left: 120px;
+    top: 2400px;
+    font-size: 30px;
+    width: 150px;
+  }
+}/*# sourceMappingURL=main.css.map */

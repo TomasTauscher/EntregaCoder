@@ -114,7 +114,7 @@ a.botonIndex:active {
     border-color: black;
 }
 
-body h2 {
+body .discografia {
     position: absolute;
     top: 900px;
     left: 880px;
@@ -457,7 +457,7 @@ a.linkFooter5:active {
         padding: 20px;
         color: black;
     }
-    body h2 {
+    body .discografia {
         position: absolute;
         top: 650px;
         left: 35%;

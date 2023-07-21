@@ -1,0 +1,238 @@
+body {
+    .h1ProximosShows {
+    position: absolute;
+    font-size: 40px;
+    left: 400px;
+    top: 120px;
+    display: inline;
+}
+.h2ProximosShows {
+    position: absolute;
+    font-size: 30px;
+    left: 850px;
+    top: 250px;
+    display: inline;
+}
+.tablaProximosShows {
+    position: absolute;
+    top: 300px;
+    left: 580px;
+    padding: 5px;
+    background-color: darkseagreen;
+}
+.show11 {
+    background-color: rgb(0, 255, 242);
+}
+.show14 {
+    background-color: rgb(0, 255, 242); 
+}
+.show16 {
+    background-color: rgb(0, 255, 242);
+}
+.show26 {
+    background-color: rgb(0, 255, 242);
+}
+.lawngreen {
+    position: absolute;
+    top: 495px;
+    left: 1230px;
+}
+.fss {
+    position: absolute;
+    top: 493px;
+    left: 1250px;
+}
+.aqua {
+    position: absolute;
+    top: 465px;
+    left: 1230px;
+}
+.fds {
+    position: absolute;
+    top: 463px;
+    left: 1250px;
+}
+.mapaRM {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    height: 400px;
+}
+.txt11 {
+    position: absolute;
+    top: 540px;
+    left: 100px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+}
+.mapaTZM {
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    height: 400px;
+}
+.txt14 {
+    position: absolute;
+    top: 540px;
+    right: 100px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+}
+.mapaMC {
+    position: absolute;
+    top: 1070px;
+    left: 100px;
+    height: 400px;
+}
+.txt16 {
+    position: absolute;
+    top: 1010px;
+    left: 100px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+}
+.mapaD {
+    position: absolute;
+    top: 1070px;
+    right: 100px;
+    height: 400px;
+}
+.txt26 {
+    position: absolute;
+    top: 1010px;
+    right: 100px;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    font-size: 40px;
+}
+}
+
+@media (max-width: 400px) {
+    body {
+        background-image: url(../img/fondo1.jpg);
+        background-size: 400px;
+            .backgroundNavProxS {
+        background-color: #2b3136;
+        height: 120px;
+    }
+    .h1ProximosShows {
+        position: absolute;
+        font-size: 40px;
+        left: 50px;
+        top: 250px;
+        width: 300px;
+        display: inline;
+        background-color: aquamarine;
+        text-align: center;
+    }
+    .h2ProximosShows {
+        position: absolute;
+        font-size: 30px;
+        left: 150px;
+        top: 350px;
+        width: 100px;
+        display: inline;
+        background-color: aquamarine;
+    }
+    .tablaProximosShows {
+        position: absolute;
+        top: 390px;
+        left: 20px;
+        padding: 5px;
+        background-color: darkseagreen;
+    }
+    .show11 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show14 {
+        background-color: rgb(0, 255, 242); 
+    }
+    .show16 {
+        background-color: rgb(0, 255, 242);
+    }
+    .show26 {
+        background-color: rgb(0, 255, 242);
+    }
+    .lawngreen {
+        position: absolute;
+        top: 495px;
+        left: 1230px;
+    }
+    .fss {
+        position: absolute;
+        top: 493px;
+        left: 1250px;
+    }
+    .aqua {
+        position: absolute;
+        top: 465px;
+        left: 1230px;
+    }
+    .fds {
+        position: absolute;
+        top: 463px;
+        left: 1250px;
+    }
+    .mapaRM {
+        position: absolute;
+        top: 600px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt11 {
+        position: absolute;
+        top: 530px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaTZM {
+        position: absolute;
+        top: 1100px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt14 {
+        position: absolute;
+        top: 1030px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+        width: 45px;
+    }
+    .mapaMC {
+        position: absolute;
+        top: 1580px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt16 {
+        position: absolute;
+        top: 1520px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+    }
+    .mapaD {
+        position: absolute;
+        top: 2080px;
+        left: 20px;
+        width: 350px;
+    }
+    .txt26 {
+        position: absolute;
+        top: 2010px;
+        left: 20px;
+        color: black;
+        background-color: rgb(0, 255, 242);
+        font-size: 40px;
+        width: 45px;
+    }
+    }
+}
