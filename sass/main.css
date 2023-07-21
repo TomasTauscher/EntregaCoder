@@ -90,6 +90,7 @@ body main .album5 {
   position: absolute;
   top: 1000px;
   left: 100px;
+  background: linear-gradient(to top, green, rgba(255, 255, 255, 0.196));
 }
 body main .album4 {
   height: 300px;
@@ -97,6 +98,7 @@ body main .album4 {
   position: absolute;
   top: 1000px;
   left: 450px;
+  background: linear-gradient(to top, green, rgba(255, 255, 255, 0.196));
 }
 body main .album3 {
   height: 300px;
@@ -104,6 +106,7 @@ body main .album3 {
   position: absolute;
   top: 1000px;
   left: 800px;
+  background: linear-gradient(to top, green, rgba(255, 255, 255, 0.196));
 }
 body main .album2 {
   height: 300px;
@@ -111,6 +114,7 @@ body main .album2 {
   position: absolute;
   top: 1000px;
   left: 1150px;
+  background: linear-gradient(to top, green, rgba(255, 255, 255, 0.196));
 }
 body main .album1 {
   height: 300px;
@@ -1334,6 +1338,147 @@ body .remeraBlanca {
   left: 1350px;
   height: 500px;
   width: 450px;
+}
+body #pieDePaginaMerchandising .parrafoMerchandising3 {
+  position: absolute;
+  top: 1500px;
+  left: 100px;
+}
+body #pieDePaginaMerchandising .twitterMerchandising {
+  position: absolute;
+  top: 1490px;
+  left: 270px;
+  height: 40px;
+}
+body #pieDePaginaMerchandising .instagramMerchandising {
+  position: absolute;
+  top: 1490px;
+  left: 310px;
+  height: 40px;
+}
+body #pieDePaginaMerchandising .youtubeMerchandising {
+  position: absolute;
+  top: 1490px;
+  left: 370px;
+  height: 40px;
+}
+body #pieDePaginaMerchandising .registrateMerchandising {
+  position: absolute;
+  top: 1490px;
+  left: 1200px;
+  height: 40px;
+}
+body #pieDePaginaMerchandising .renglonMerchandising {
+  position: absolute;
+  top: 1480px;
+  left: 1300px;
+  height: 40px;
+}
+body #pieDePaginaMerchandising .botonEnviarPieDePaginaMerchandising {
+  position: absolute;
+  top: 1480px;
+  left: 1472px;
+  height: 44px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+body #pieDePaginaMerchandising .linkFooter1Merchandising {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 700px;
+  border-style: solid;
+  border-left: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePaginaMerchandising a.linkFooter1Merchandising:hover {
+  color: green;
+}
+body #pieDePaginaMerchandising a.linkFooter1Merchandising:active {
+  color: black;
+}
+body #pieDePaginaMerchandising .linkFooter2Merchandising {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 750px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePaginaMerchandising a.linkFooter2Merchandising:hover {
+  color: green;
+}
+body #pieDePaginaMerchandising a.linkFooter2Merchandising:active {
+  color: black;
+}
+body #pieDePaginaMerchandising .linkFooter3Merchandising {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 871px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePaginaMerchandising a.linkFooter3Merchandising:hover {
+  color: green;
+}
+body #pieDePaginaMerchandising a.linkFooter3Merchandising:active {
+  color: black;
+}
+body #pieDePaginaMerchandising .linkFooter4Merchandising {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 1019px;
+  border-style: solid;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePaginaMerchandising a.linkFooter4Merchandising:hover {
+  color: green;
+}
+body #pieDePaginaMerchandising a.linkFooter4Merchandising:active {
+  color: black;
+}
+body #pieDePaginaMerchandising .linkFooter5Merchandising {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 1600px;
+  left: 1181px;
+  border-style: solid;
+  border-right: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding: 5px;
+}
+body #pieDePaginaMerchandising a.linkFooter5Merchandising:hover {
+  color: green;
+}
+body #pieDePaginaMerchandising a.linkFooter5Merchandising:active {
+  color: black;
+}
+body #pieDePaginaMerchandising .derechosMerchandising {
+  position: absolute;
+  top: 1650px;
+  left: 800px;
 }
 
 @media (max-width: 400px) {
