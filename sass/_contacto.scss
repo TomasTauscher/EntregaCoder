@@ -164,6 +164,149 @@ body {
         top: 1350px;
         font-size: 30px;
     }
+    #pieDePaginaContacto {
+            .parrafoContacto3 {
+                position: absolute;
+                top: 1500px;
+                left: 100px;
+            }
+            .twitterContacto {
+                position: absolute;
+                top: 1490px;
+                left: 270px;
+                height: 40px;
+            }
+            .instagramContacto {
+                position: absolute;
+                top: 1490px;
+                left: 310px;
+                height: 40px;
+            }
+            .youtubeContacto {
+                position: absolute;
+                top: 1490px;
+                left: 370px;
+                height: 40px;
+            }
+            .registrateContacto {
+                position: absolute;
+                top: 1490px;
+                left: 1200px;
+                height: 40px;
+            }
+            .renglonContacto {
+                position: absolute;
+                top: 1480px;
+                left: 1300px;
+                height: 40px;
+            }
+            .botonEnviarPieDePaginaContacto {
+                position: absolute;
+                top: 1480px;
+                left: 1472px;
+                height: 44px;
+                width: 100px;
+                background-color: black;
+                color: white;
+            }
+            .linkFooter1Contacto {
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 1600px;
+                left: 700px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                padding: 5px;
+            }
+            a.linkFooter1Contacto:hover {
+                color: green;
+            }
+            a.linkFooter1Contacto:active {
+                color: black;
+            }
+            .linkFooter2Contacto{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 1600px;
+                left: 750px;
+                border-style:solid;
+                border-top: 10px;
+                border-bottom: 10px;
+                padding: 5px;
+            }
+            a.linkFooter2Contacto:hover {
+                color: green;
+            }
+            a.linkFooter2Contacto:active {
+                color: black;
+            }
+            .linkFooter3Contacto{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 1600px;
+                left: 871px;
+                border-style:solid;
+                border-top: 10px;
+                border-bottom: 10px;
+                padding: 5px;
+            }
+            a.linkFooter3Contacto:hover {
+                color: green;
+            }
+            a.linkFooter3Contacto:active {
+                color: black;
+            }
+            .linkFooter4Contacto{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 1600px;
+                left: 1019px;
+                border-style:solid;
+                border-top: 10px;
+                border-bottom: 10px;
+                padding: 5px;
+            }
+            a.linkFooter4Contacto:hover {
+                color: green;
+            }
+            a.linkFooter4Contacto:active {
+                color: black;
+            }
+            .linkFooter5Contacto{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 1600px;
+                left: 1181px;
+                border-style:solid;
+                border-right: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                padding: 5px;
+            }
+            a.linkFooter5Contacto:hover {
+                color: green;
+            }
+            a.linkFooter5Contacto:active {
+                color: black;
+            }
+            .derechosContacto {
+                position: absolute;
+                top: 1650px;
+                left: 800px;
+            }
+    }
 }
 
 @media (max-width: 400px) {
@@ -365,6 +508,180 @@ body {
             top: 2400px;
             font-size: 30px;
             width: 150px;
+        }
+        #pieDePaginaContacto {
+            background-color: gray;
+            .parrafoContacto3 {
+                position: absolute;
+                top: 2500px;
+                left: 20px;
+                background-color: black;
+                padding: 5px;
+                color: white;
+            }
+            .twitterContacto {
+                position: absolute;
+                top: 2500px;
+                left: 200px;
+                height: 40px;
+            }
+            .instagramContacto {
+                position: absolute;
+                top: 2500px;
+                left: 255px;
+                height: 40px;
+            }
+            .youtubeContacto {
+                position: absolute;
+                top: 2500px;
+                left: 330px;
+                height: 40px;
+            }
+            .registrateContacto {
+                position: absolute;
+                top: 2650px;
+                left: 20px;
+                background-color: black;
+                color: white;
+                padding: 5px;
+            }
+            .renglonContacto {
+                position: absolute;
+                top: 2650px;
+                left: 110px;
+                height: 40px;
+            }
+            .botonEnviarPieDePaginaContacto {
+                position: absolute;
+                top: 2650px;
+                left: 290px;
+                height: 40px;
+                width: 100px;
+                background-color: black;
+                color: white;
+            }
+            .linkFooter1Contacto {
+                background-color: aquamarine;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 2700px;
+                left: 175px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                border-right: 10px;
+                padding: 5px;
+                width: 50px;
+                text-align: center;
+            }
+            a.linkFooter1Contacto:hover {
+                color: green;
+            }
+            a.linkFooter1Contacto:active {
+                color: black;
+            }
+            .linkFooter2Contacto{
+                background-color: aquamarine;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 2750px;
+                left: 142px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                border-right: 10px;
+                padding: 5px;
+                width: 115px;
+                text-align: center;
+            }
+            a.linkFooter2Contacto:hover {
+                color: green;
+            }
+            a.linkFooter2Contacto:active {
+                color: black;
+            }
+            .linkFooter3Contacto{
+                background-color: aquamarine;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 2800px;
+                left: 130px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                border-right: 10px;
+                padding: 5px;
+                width: 140px;
+                text-align: center;
+            }
+            a.linkFooter3Contacto:hover {
+                color: green;
+            }
+            a.linkFooter3Contacto:active {
+                color: black;
+            }
+            .linkFooter4Contacto{
+                background-color: aquamarine;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 2850px;
+                left: 150px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                border-right: 10px;
+                padding: 5px;
+                width: 100px;
+                text-align: center;
+            }
+            a.linkFooter4Contacto:hover {
+                color: green;
+            }
+            a.linkFooter4Contacto:active {
+                color: black;
+            }
+            .linkFooter5Contacto{
+                background-color: aquamarine;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                position:absolute;
+                top: 2930px;
+                left: 155px;
+                border-style:solid;
+                border-left: 10px;
+                border-top: 10px;
+                border-bottom: 10px;
+                border-right: 10px;
+                padding: 5px;
+                width: 90px;
+                text-align: center;
+            }
+            a.linkFooter5Contacto:hover {
+                color: green;
+            }
+            a.linkFooter5Contacto:active {
+                color: black;
+            }
+            .derechosContacto {
+                position: absolute;
+                top: 3000px;
+                left: 15px;
+                width: 370px;
+                text-align: center;
+            }
         }
     }
 }

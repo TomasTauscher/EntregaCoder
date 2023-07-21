@@ -86,6 +86,7 @@ body {
             position: absolute;
             top: 930px;
             left: 865px;
+            background-color: aquamarine;
         }
         .album5 {
             height: 300px;
@@ -121,6 +122,7 @@ body {
             position: absolute;
             top: 1000px;
             left: 1500px;
+            background: linear-gradient(to top, green, rgba(255, 255, 255, 0.196));
         }
         .parrafoIndex2 {
             position: absolute;
@@ -295,107 +297,108 @@ body {
         .backgroundNavIndex {
             background-color: #2b3136;
             height: 120px;
+            .navBibIndex {
+                position: absolute;
+                top: 95px;
+                left: 0px;
+                width: 100px;
+                visibility: visible;
+                color: black;
+                font-size: 14px;
+                margin: 15px;
+                padding: 10px;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 5px;
+                background-color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+            a.navBibIndex:hover {
+                color: green;
+                border-color: green;
+            }
+            a.navBibIndex:active {
+                color: black;
+                border-color: black;
+            }
+            .navMerchIndex {
+                position: absolute;
+                left: 260px;
+                width: 113px;
+                top: 95px;
+                visibility: visible;
+                color: black;
+                font-size: 14px;
+                margin: 15px;
+                padding: 10px;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 5px;
+                background-color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+            a.navMerchIndex:hover {
+                color: green;
+                border-color: green;
+            }
+            a.navMerchIndex:active {
+                color: black;
+                border-color: black;
+            }
+            .navProxSIndex {
+                position: absolute;
+                left: 0px;
+                width: 129px;
+                top: 150px;
+                visibility: visible;
+                color: black;
+                font-size: 14px;
+                margin: 15px;
+                padding: 10px;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 5px;
+                background-color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+            a.navProxSIndex:hover {
+                color: green;
+                border-color: green;
+            }
+            a.navProxSIndex:active {
+                color: black;
+                border-color: black;
+            }
+            .navContIndex {
+                position: absolute;
+                left: 260px;
+                width: 113px;
+                top: 150px;
+                visibility: visible;
+                color: black;
+                font-size: 14px;
+                margin: 15px;
+                padding: 10px;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 5px;
+                background-color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+            a.navContIndex:hover {
+                color: green;
+                border-color: green;
+            }
+            a.navContIndex:active {
+                color: black;
+                border-color: black;
+            }
         }
-        .navBibIndex {
-            position: absolute;
-            top: 95px;
-            left: 0px;
-            width: 100px;
-            visibility: visible;
-            color: black;
-            font-size: 14px;
-            margin: 15px;
-            padding: 10px;
-            border-style: solid;
-            border-width: 4px;
-            border-radius: 5px;
-            background-color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        a.navBibIndex:hover {
-            color: green;
-            border-color: green;
-        }
-        a.navBibIndex:active {
-            color: black;
-            border-color: black;
-        }
-        .navMerchIndex {
-            position: absolute;
-            left: 260px;
-            width: 113px;
-            top: 95px;
-            visibility: visible;
-            color: black;
-            font-size: 14px;
-            margin: 15px;
-            padding: 10px;
-            border-style: solid;
-            border-width: 4px;
-            border-radius: 5px;
-            background-color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        a.navMerchIndex:hover {
-            color: green;
-            border-color: green;
-        }
-        a.navMerchIndex:active {
-            color: black;
-            border-color: black;
-        }
-        .navProxSIndex {
-            position: absolute;
-            left: 0px;
-            width: 129px;
-            top: 150px;
-            visibility: visible;
-            color: black;
-            font-size: 14px;
-            margin: 15px;
-            padding: 10px;
-            border-style: solid;
-            border-width: 4px;
-            border-radius: 5px;
-            background-color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        a.navProxSIndex:hover {
-            color: green;
-            border-color: green;
-        }
-        a.navProxSIndex:active {
-            color: black;
-            border-color: black;
-        }
-        .navContIndex {
-            position: absolute;
-            left: 260px;
-            width: 113px;
-            top: 150px;
-            visibility: visible;
-            color: black;
-            font-size: 14px;
-            margin: 15px;
-            padding: 10px;
-            border-style: solid;
-            border-width: 4px;
-            border-radius: 5px;
-            background-color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        a.navContIndex:hover {
-            color: green;
-            border-color: green;
-        }
-        a.navContIndex:active {
-            color: black;
-            border-color: black;
-        }
+        
         .videoIndex {
             display: none;
         }
