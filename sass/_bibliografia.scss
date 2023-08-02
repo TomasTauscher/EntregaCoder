@@ -98,6 +98,7 @@ body {
         position: absolute;
         top: 2200px;
         left: 100px;
+        background-color: aquamarine;
     }
     .twitterBibliografia {
         position: absolute;
@@ -121,13 +122,18 @@ body {
         position: absolute;
         top: 2190px;
         left: 1200px;
-        height: 40px;
+        height: auto;
+        background-color: aquamarine;
+
+
     }
     .renglonBibliografia {
         position: absolute;
         top: 2180px;
         left: 1300px;
-        height: 40px;
+        height: 44px;
+        background-color: aquamarine;
+
     }
     .botonEnviarFooterBibliografia {
         position: absolute;
@@ -144,12 +150,14 @@ body {
         text-decoration: none;
         position:absolute;
         top: 2300px;
-        left: 700px;
+        left: 695px;
         border-style:solid;
         border-left: 10px;
         border-top: 10px;
         border-bottom: 10px;
         padding: 5px;
+        background-color: aquamarine;
+
     }
     a.linkFooter1Bibliografia:hover {
         color: green;
@@ -168,6 +176,8 @@ body {
         border-top: 10px;
         border-bottom: 10px;
         padding: 5px;
+        background-color: aquamarine;
+
     }
     a.linkFooter2Bibliografia:hover {
         color: green;
@@ -186,6 +196,8 @@ body {
         border-top: 10px;
         border-bottom: 10px;
         padding: 5px;
+        background-color: aquamarine;
+
     }
     a.linkFooter3Biblioteca:hover {
         color: green;
@@ -204,6 +216,8 @@ body {
         border-top: 10px;
         border-bottom: 10px;
         padding: 5px;
+        background-color: aquamarine;
+
     }
     a.linkFooter4Bibliografia:hover {
         color: green;
@@ -223,6 +237,8 @@ body {
         border-top: 10px;
         border-bottom: 10px;
         padding: 5px;
+        background-color: aquamarine;
+
     }
     a.linkFooter5Bibliografia:hover {
         color: green;
@@ -234,6 +250,8 @@ body {
         position: absolute;
         top: 2350px;
         left: 800px;
+        background-color: aquamarine;
+        height: auto;
     }
 }
 

@@ -131,48 +131,51 @@ body main .parrafoIndex2 {
   font-size: 25px;
   background-color: antiquewhite;
 }
-body #pieDePagina {
+body #pieDePaginaIndex {
   background-image: url(../img/BANNER\ feid.jpg);
   /* position: absolute; */
   /* height: 1000px; */
   overflow: hidden;
 }
-body #pieDePagina .parrafoIndex3 {
+body #pieDePaginaIndex .parrafoIndex3 {
   position: absolute;
   top: 1500px;
   left: 100px;
+  background-color: aquamarine;
 }
-body #pieDePagina .twitter {
+body #pieDePaginaIndex .twitter {
   position: absolute;
   top: 1490px;
   left: 270px;
   height: 40px;
 }
-body #pieDePagina .instagram {
+body #pieDePaginaIndex .instagram {
   position: absolute;
   top: 1490px;
   left: 310px;
   height: 40px;
 }
-body #pieDePagina .youtube {
+body #pieDePaginaIndex .youtube {
   position: absolute;
   top: 1490px;
   left: 370px;
   height: 40px;
 }
-body #pieDePagina .registrate {
+body #pieDePaginaIndex .registrate {
   position: absolute;
   top: 1490px;
   left: 1200px;
-  height: 40px;
+  height: auto;
+  background-color: aquamarine;
 }
-body #pieDePagina .renglon {
+body #pieDePaginaIndex .renglon {
   position: absolute;
   top: 1480px;
   left: 1300px;
-  height: 40px;
+  height: 44px;
+  background-color: aquamarine;
 }
-body #pieDePagina .botonEnviarPieDePagina {
+body #pieDePaginaIndex .botonEnviarPieDePagina {
   position: absolute;
   top: 1480px;
   left: 1472px;
@@ -181,26 +184,27 @@ body #pieDePagina .botonEnviarPieDePagina {
   background-color: black;
   color: white;
 }
-body #pieDePagina .linkFooter1 {
+body #pieDePaginaIndex .linkFooter1 {
   color: black;
   font-size: 20px;
   text-decoration: none;
   position: absolute;
   top: 1600px;
-  left: 700px;
+  left: 695px;
   border-style: solid;
   border-left: 10px;
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
-body #pieDePagina a.linkFooter1:hover {
+body #pieDePaginaIndex a.linkFooter1:hover {
   color: green;
 }
-body #pieDePagina a.linkFooter1:active {
+body #pieDePaginaIndex a.linkFooter1:active {
   color: black;
 }
-body #pieDePagina .linkFooter2 {
+body #pieDePaginaIndex .linkFooter2 {
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -211,14 +215,15 @@ body #pieDePagina .linkFooter2 {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
-body #pieDePagina a.linkFooter2:hover {
+body #pieDePaginaIndex a.linkFooter2:hover {
   color: green;
 }
-body #pieDePagina a.linkFooter2:active {
+body #pieDePaginaIndex a.linkFooter2:active {
   color: black;
 }
-body #pieDePagina .linkFooter3 {
+body #pieDePaginaIndex .linkFooter3 {
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -229,14 +234,15 @@ body #pieDePagina .linkFooter3 {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
-body #pieDePagina a.linkFooter3:hover {
+body #pieDePaginaIndex a.linkFooter3:hover {
   color: green;
 }
-body #pieDePagina a.linkFooter3:active {
+body #pieDePaginaIndex a.linkFooter3:active {
   color: black;
 }
-body #pieDePagina .linkFooter4 {
+body #pieDePaginaIndex .linkFooter4 {
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -247,14 +253,15 @@ body #pieDePagina .linkFooter4 {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
-body #pieDePagina a.linkFooter4:hover {
+body #pieDePaginaIndex a.linkFooter4:hover {
   color: green;
 }
-body #pieDePagina a.linkFooter4:active {
+body #pieDePaginaIndex a.linkFooter4:active {
   color: black;
 }
-body #pieDePagina .linkFooter5 {
+body #pieDePaginaIndex .linkFooter5 {
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -266,39 +273,42 @@ body #pieDePagina .linkFooter5 {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
-body #pieDePagina a.linkFooter5:hover {
+body #pieDePaginaIndex a.linkFooter5:hover {
   color: green;
 }
-body #pieDePagina a.linkFooter5:active {
+body #pieDePaginaIndex a.linkFooter5:active {
   color: black;
 }
-body #pieDePagina .derechos {
+body #pieDePaginaIndex .derechos {
   position: absolute;
   top: 1650px;
   left: 800px;
+  background-color: aquamarine;
+  height: auto;
 }
 
 @media (max-width: 400px) {
-  body {
+  body main {
     background-image: url(../img/fondo1.jpg);
     background-size: 400px;
   }
-  body .h1Index {
+  body main .h1Index {
     position: absolute;
     font-size: 40px;
     left: 165px;
-    top: 240px;
+    top: 280px;
     width: 70px;
     display: inline;
     background-color: aquamarine;
     text-align: center;
   }
-  body .backgroundNavIndex {
+  body main .backgroundNavIndex {
     background-color: #2b3136;
     height: 120px;
   }
-  body .backgroundNavIndex .navBibIndex {
+  body main .backgroundNavIndex .navBibIndex {
     position: absolute;
     top: 95px;
     left: 0px;
@@ -315,15 +325,15 @@ body #pieDePagina .derechos {
     text-align: center;
     text-decoration: none;
   }
-  body .backgroundNavIndex a.navBibIndex:hover {
+  body main .backgroundNavIndex a.navBibIndex:hover {
     color: green;
     border-color: green;
   }
-  body .backgroundNavIndex a.navBibIndex:active {
+  body main .backgroundNavIndex a.navBibIndex:active {
     color: black;
     border-color: black;
   }
-  body .backgroundNavIndex .navMerchIndex {
+  body main .backgroundNavIndex .navMerchIndex {
     position: absolute;
     left: 260px;
     width: 113px;
@@ -340,15 +350,15 @@ body #pieDePagina .derechos {
     text-align: center;
     text-decoration: none;
   }
-  body .backgroundNavIndex a.navMerchIndex:hover {
+  body main .backgroundNavIndex a.navMerchIndex:hover {
     color: green;
     border-color: green;
   }
-  body .backgroundNavIndex a.navMerchIndex:active {
+  body main .backgroundNavIndex a.navMerchIndex:active {
     color: black;
     border-color: black;
   }
-  body .backgroundNavIndex .navProxSIndex {
+  body main .backgroundNavIndex .navProxSIndex {
     position: absolute;
     left: 0px;
     width: 129px;
@@ -365,15 +375,15 @@ body #pieDePagina .derechos {
     text-align: center;
     text-decoration: none;
   }
-  body .backgroundNavIndex a.navProxSIndex:hover {
+  body main .backgroundNavIndex a.navProxSIndex:hover {
     color: green;
     border-color: green;
   }
-  body .backgroundNavIndex a.navProxSIndex:active {
+  body main .backgroundNavIndex a.navProxSIndex:active {
     color: black;
     border-color: black;
   }
-  body .backgroundNavIndex .navContIndex {
+  body main .backgroundNavIndex .navContIndex {
     position: absolute;
     left: 260px;
     width: 113px;
@@ -390,18 +400,18 @@ body #pieDePagina .derechos {
     text-align: center;
     text-decoration: none;
   }
-  body .backgroundNavIndex a.navContIndex:hover {
+  body main .backgroundNavIndex a.navContIndex:hover {
     color: green;
     border-color: green;
   }
-  body .backgroundNavIndex a.navContIndex:active {
+  body main .backgroundNavIndex a.navContIndex:active {
     color: black;
     border-color: black;
   }
-  body .videoIndex {
+  body main .videoIndex {
     display: none;
   }
-  body .parrafoIndex1 {
+  body main .parrafoIndex1 {
     background-color: antiquewhite;
     position: absolute;
     left: 25px;
@@ -411,7 +421,7 @@ body #pieDePagina .derechos {
     padding: 10px;
     text-align: center;
   }
-  body .botonIndex {
+  body main .botonIndex {
     position: absolute;
     top: 500px;
     left: 125px;
@@ -426,54 +436,48 @@ body #pieDePagina .derechos {
     padding: 20px;
     color: black;
   }
-  body .discografia {
+  body main .discografia {
     position: absolute;
     top: 650px;
     left: 35%;
     background-color: aquamarine;
-    visibility: hidden;
   }
-  body .album5 {
+  body main .album5 {
     height: 300px;
     width: 300px;
     position: absolute;
     top: 700px;
     left: 50px;
-    visibility: hidden;
   }
-  body .album4 {
+  body main .album4 {
     height: 300px;
     width: 300px;
     position: absolute;
     top: 1020px;
     left: 50px;
-    visibility: hidden;
   }
-  body .album3 {
+  body main .album3 {
     height: 300px;
     width: 300px;
     position: absolute;
     top: 1340px;
     left: 50px;
-    visibility: hidden;
   }
-  body .album2 {
+  body main .album2 {
     height: 300px;
     width: 300px;
     position: absolute;
     top: 1660px;
     left: 50px;
-    visibility: hidden;
   }
-  body .album1 {
+  body main .album1 {
     height: 300px;
     width: 300px;
     position: absolute;
     top: 1980px;
     left: 50px;
-    visibility: hidden;
   }
-  body .parrafoIndex2 {
+  body main .parrafoIndex2 {
     position: absolute;
     top: 2320px;
     font-size: 25px;
@@ -483,59 +487,51 @@ body #pieDePagina .derechos {
     width: 350px;
     padding: 10px;
     text-align: center;
-    visibility: hidden;
   }
-  body #pieDePagina {
+  body #pieDePaginaIndex {
     background-color: gray;
-    visibility: hidden;
   }
-  body .parrafoIndex3 {
+  body #pieDePaginaIndex .parrafoIndex3 {
     position: absolute;
     top: 2500px;
     left: 20px;
     background-color: black;
     padding: 5px;
     color: white;
-    visibility: hidden;
   }
-  body .twitter {
+  body #pieDePaginaIndex .twitter {
     position: absolute;
     top: 2500px;
     left: 200px;
     height: 40px;
-    visibility: hidden;
   }
-  body .instagram {
+  body #pieDePaginaIndex .instagram {
     position: absolute;
     top: 2500px;
     left: 255px;
     height: 40px;
-    visibility: hidden;
   }
-  body .youtube {
+  body #pieDePaginaIndex .youtube {
     position: absolute;
     top: 2500px;
     left: 330px;
     height: 40px;
-    visibility: hidden;
   }
-  body .registrate {
+  body #pieDePaginaIndex .registrate {
     position: absolute;
     top: 2650px;
     left: 20px;
     background-color: black;
     color: white;
     padding: 5px;
-    visibility: hidden;
   }
-  body .renglon {
+  body #pieDePaginaIndex .renglon {
     position: absolute;
     top: 2650px;
     left: 110px;
     height: 40px;
-    visibility: hidden;
   }
-  body .botonEnviarPieDePagina {
+  body #pieDePaginaIndex .botonEnviarPieDePagina {
     position: absolute;
     top: 2650px;
     left: 290px;
@@ -543,9 +539,8 @@ body #pieDePagina .derechos {
     width: 100px;
     background-color: black;
     color: white;
-    visibility: hidden;
   }
-  body .linkFooter1 {
+  body #pieDePaginaIndex .linkFooter1 {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -561,15 +556,14 @@ body #pieDePagina .derechos {
     padding: 5px;
     width: 50px;
     text-align: center;
-    visibility: hidden;
   }
-  body a.linkFooter1:hover {
+  body #pieDePaginaIndex a.linkFooter1:hover {
     color: green;
   }
-  body a.linkFooter1:active {
+  body #pieDePaginaIndex a.linkFooter1:active {
     color: black;
   }
-  body .linkFooter2 {
+  body #pieDePaginaIndex .linkFooter2 {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -585,15 +579,14 @@ body #pieDePagina .derechos {
     padding: 5px;
     width: 115px;
     text-align: center;
-    visibility: hidden;
   }
-  body a.linkFooter2:hover {
+  body #pieDePaginaIndex a.linkFooter2:hover {
     color: green;
   }
-  body a.linkFooter2:active {
+  body #pieDePaginaIndex a.linkFooter2:active {
     color: black;
   }
-  body .linkFooter3 {
+  body #pieDePaginaIndex .linkFooter3 {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -609,15 +602,14 @@ body #pieDePagina .derechos {
     padding: 5px;
     width: 140px;
     text-align: center;
-    visibility: hidden;
   }
-  body a.linkFooter3:hover {
+  body #pieDePaginaIndex a.linkFooter3:hover {
     color: green;
   }
-  body a.linkFooter3:active {
+  body #pieDePaginaIndex a.linkFooter3:active {
     color: black;
   }
-  body .linkFooter4 {
+  body #pieDePaginaIndex .linkFooter4 {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -633,15 +625,14 @@ body #pieDePagina .derechos {
     padding: 5px;
     width: 100px;
     text-align: center;
-    visibility: hidden;
   }
-  body a.linkFooter4:hover {
+  body #pieDePaginaIndex a.linkFooter4:hover {
     color: green;
   }
-  body a.linkFooter4:active {
+  body #pieDePaginaIndex a.linkFooter4:active {
     color: black;
   }
-  body .linkFooter5 {
+  body #pieDePaginaIndex .linkFooter5 {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -657,21 +648,19 @@ body #pieDePagina .derechos {
     padding: 5px;
     width: 90px;
     text-align: center;
-    visibility: hidden;
   }
-  body a.linkFooter5:hover {
+  body #pieDePaginaIndex a.linkFooter5:hover {
     color: green;
   }
-  body a.linkFooter5:active {
+  body #pieDePaginaIndex a.linkFooter5:active {
     color: black;
   }
-  body .derechos {
+  body #pieDePaginaIndex .derechos {
     position: absolute;
     top: 3000px;
     left: 15px;
     width: 370px;
     text-align: center;
-    visibility: hidden;
   }
 }
 body .h1Bibliografia {
@@ -773,6 +762,7 @@ body .parrafoBibliografia4 {
   position: absolute;
   top: 2200px;
   left: 100px;
+  background-color: aquamarine;
 }
 body .twitterBibliografia {
   position: absolute;
@@ -796,13 +786,15 @@ body .registrateBibliografia {
   position: absolute;
   top: 2190px;
   left: 1200px;
-  height: 40px;
+  height: auto;
+  background-color: aquamarine;
 }
 body .renglonBibliografia {
   position: absolute;
   top: 2180px;
   left: 1300px;
-  height: 40px;
+  height: 44px;
+  background-color: aquamarine;
 }
 body .botonEnviarFooterBibliografia {
   position: absolute;
@@ -819,12 +811,13 @@ body .linkFooter1Bibliografia {
   text-decoration: none;
   position: absolute;
   top: 2300px;
-  left: 700px;
+  left: 695px;
   border-style: solid;
   border-left: 10px;
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body a.linkFooter1Bibliografia:hover {
   color: green;
@@ -843,6 +836,7 @@ body .linkFooter2Bibliografia {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body a.linkFooter2Bibliografia:hover {
   color: green;
@@ -861,6 +855,7 @@ body .linkFooter3Bibliografia {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body a.linkFooter3Biblioteca:hover {
   color: green;
@@ -879,6 +874,7 @@ body .linkFooter4Bibliografia {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body a.linkFooter4Bibliografia:hover {
   color: green;
@@ -898,6 +894,7 @@ body .linkFooter5Bibliografia {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body a.linkFooter5Bibliografia:hover {
   color: green;
@@ -909,6 +906,8 @@ body .derechosBibliografia {
   position: absolute;
   top: 2350px;
   left: 800px;
+  background-color: aquamarine;
+  height: auto;
 }
 
 @media (max-width: 400px) {
@@ -1343,6 +1342,7 @@ body #pieDePaginaMerchandising .parrafoMerchandising3 {
   position: absolute;
   top: 1500px;
   left: 100px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising .twitterMerchandising {
   position: absolute;
@@ -1366,13 +1366,15 @@ body #pieDePaginaMerchandising .registrateMerchandising {
   position: absolute;
   top: 1490px;
   left: 1200px;
-  height: 40px;
+  height: auto;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising .renglonMerchandising {
   position: absolute;
   top: 1480px;
   left: 1300px;
-  height: 40px;
+  height: 44px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising .botonEnviarPieDePaginaMerchandising {
   position: absolute;
@@ -1389,12 +1391,13 @@ body #pieDePaginaMerchandising .linkFooter1Merchandising {
   text-decoration: none;
   position: absolute;
   top: 1600px;
-  left: 700px;
+  left: 695px;
   border-style: solid;
   border-left: 10px;
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising a.linkFooter1Merchandising:hover {
   color: green;
@@ -1413,6 +1416,7 @@ body #pieDePaginaMerchandising .linkFooter2Merchandising {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising a.linkFooter2Merchandising:hover {
   color: green;
@@ -1431,6 +1435,7 @@ body #pieDePaginaMerchandising .linkFooter3Merchandising {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising a.linkFooter3Merchandising:hover {
   color: green;
@@ -1449,6 +1454,7 @@ body #pieDePaginaMerchandising .linkFooter4Merchandising {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising a.linkFooter4Merchandising:hover {
   color: green;
@@ -1468,6 +1474,7 @@ body #pieDePaginaMerchandising .linkFooter5Merchandising {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaMerchandising a.linkFooter5Merchandising:hover {
   color: green;
@@ -1479,6 +1486,7 @@ body #pieDePaginaMerchandising .derechosMerchandising {
   position: absolute;
   top: 1650px;
   left: 800px;
+  background-color: aquamarine;
 }
 
 @media (max-width: 400px) {
@@ -1564,7 +1572,7 @@ body #pieDePaginaMerchandising .derechosMerchandising {
   body #pieDePaginaMerchandising {
     background-color: gray;
   }
-  body .parrafoMerchandising3 {
+  body #pieDePaginaMerchandising .parrafoMerchandising3 {
     position: absolute;
     top: 3450px;
     left: 20px;
@@ -1572,25 +1580,25 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     padding: 5px;
     color: white;
   }
-  body .twitterMerchandising {
+  body #pieDePaginaMerchandising .twitterMerchandising {
     position: absolute;
     top: 3450px;
     left: 200px;
     height: 40px;
   }
-  body .instagramMerchandising {
+  body #pieDePaginaMerchandising .instagramMerchandising {
     position: absolute;
     top: 3450px;
     left: 250px;
     height: 40px;
   }
-  body .youtubeMerchandising {
+  body #pieDePaginaMerchandising .youtubeMerchandising {
     position: absolute;
     top: 3450px;
     left: 320px;
     height: 40px;
   }
-  body .registrateMerchandising {
+  body #pieDePaginaMerchandising .registrateMerchandising {
     position: absolute;
     top: 3600px;
     left: 20px;
@@ -1598,13 +1606,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     color: white;
     padding: 5px;
   }
-  body .renglonMerchandising {
+  body #pieDePaginaMerchandising .renglonMerchandising {
     position: absolute;
     top: 3600px;
     left: 110px;
     height: 40px;
   }
-  body .botonEnviarPieDePaginaMerchandising {
+  body #pieDePaginaMerchandising .botonEnviarPieDePaginaMerchandising {
     position: absolute;
     top: 3600px;
     left: 290px;
@@ -1613,7 +1621,7 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     background-color: black;
     color: white;
   }
-  body .linkFooter1Merchandising {
+  body #pieDePaginaMerchandising .linkFooter1Merchandising {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -1630,13 +1638,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     width: 50px;
     text-align: center;
   }
-  body a.linkFooter1Merchandising:hover {
+  body #pieDePaginaMerchandising a.linkFooter1Merchandising:hover {
     color: green;
   }
-  body a.linkFooter1Merchandising:active {
+  body #pieDePaginaMerchandising a.linkFooter1Merchandising:active {
     color: black;
   }
-  body .linkFooter2Merchandising {
+  body #pieDePaginaMerchandising .linkFooter2Merchandising {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -1653,13 +1661,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     width: 115px;
     text-align: center;
   }
-  body a.linkFooter2Merchandising:hover {
+  body #pieDePaginaMerchandising a.linkFooter2Merchandising:hover {
     color: green;
   }
-  body a.linkFooter2Merchandising:active {
+  body #pieDePaginaMerchandising a.linkFooter2Merchandising:active {
     color: black;
   }
-  body .linkFooter3Merchandising {
+  body #pieDePaginaMerchandising .linkFooter3Merchandising {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -1676,13 +1684,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     width: 140px;
     text-align: center;
   }
-  body a.linkFooter3Merchandising:hover {
+  body #pieDePaginaMerchandising a.linkFooter3Merchandising:hover {
     color: green;
   }
-  body a.linkFooter3Merchandising:active {
+  body #pieDePaginaMerchandising a.linkFooter3Merchandising:active {
     color: black;
   }
-  body .linkFooter4Merchandising {
+  body #pieDePaginaMerchandising .linkFooter4Merchandising {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -1699,13 +1707,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     width: 100px;
     text-align: center;
   }
-  body a.linkFooter4Merchandising:hover {
+  body #pieDePaginaMerchandising a.linkFooter4Merchandising:hover {
     color: green;
   }
-  body a.linkFooter4Merchandising:active {
+  body #pieDePaginaMerchandising a.linkFooter4Merchandising:active {
     color: black;
   }
-  body .linkFooter5Merchandising {
+  body #pieDePaginaMerchandising .linkFooter5Merchandising {
     background-color: aquamarine;
     color: black;
     font-size: 20px;
@@ -1722,13 +1730,13 @@ body #pieDePaginaMerchandising .derechosMerchandising {
     width: 90px;
     text-align: center;
   }
-  body a.linkFooter5Merchandising:hover {
+  body #pieDePaginaMerchandising a.linkFooter5Merchandising:hover {
     color: green;
   }
-  body a.linkFooter5Merchandising:active {
+  body #pieDePaginaMerchandising a.linkFooter5Merchandising:active {
     color: black;
   }
-  body .derechosMerchandising {
+  body #pieDePaginaMerchandising .derechosMerchandising {
     position: absolute;
     top: 3950px;
     left: 10px;
@@ -1849,6 +1857,7 @@ body #pieDePaginaProxShows .parrafoProxShows3 {
   position: absolute;
   top: 1500px;
   left: 100px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows .twitterProxShows {
   position: absolute;
@@ -1872,13 +1881,15 @@ body #pieDePaginaProxShows .registrateProxShows {
   position: absolute;
   top: 1490px;
   left: 1200px;
-  height: 40px;
+  height: auto;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows .renglonProxShows {
   position: absolute;
   top: 1480px;
   left: 1300px;
-  height: 40px;
+  height: 44px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows .botonEnviarPieDePaginaProxShows {
   position: absolute;
@@ -1895,12 +1906,13 @@ body #pieDePaginaProxShows .linkFooter1ProxShows {
   text-decoration: none;
   position: absolute;
   top: 1600px;
-  left: 700px;
+  left: 695px;
   border-style: solid;
   border-left: 10px;
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows a.linkFooter1ProxShows:hover {
   color: green;
@@ -1919,6 +1931,7 @@ body #pieDePaginaProxShows .linkFooter2ProxShows {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows a.linkFooter2ProxShows:hover {
   color: green;
@@ -1937,6 +1950,7 @@ body #pieDePaginaProxShows .linkFooter3ProxShows {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows a.linkFooter3ProxShows:hover {
   color: green;
@@ -1955,6 +1969,7 @@ body #pieDePaginaProxShows .linkFooter4ProxShows {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows a.linkFooter4ProxShows:hover {
   color: green;
@@ -1974,6 +1989,7 @@ body #pieDePaginaProxShows .linkFooter5ProxShows {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaProxShows a.linkFooter5ProxShows:hover {
   color: green;
@@ -1985,6 +2001,7 @@ body #pieDePaginaProxShows .derechosProxShows {
   position: absolute;
   top: 1650px;
   left: 800px;
+  background-color: aquamarine;
 }
 
 @media (max-width: 400px) {
@@ -2281,7 +2298,7 @@ body #pieDePaginaProxShows .derechosProxShows {
   }
   body #pieDePaginaProxShows .derechosProxShows {
     position: absolute;
-    top: 3950px;
+    top: 2950px;
     left: 10px;
     width: 370px;
     text-align: center;
@@ -2402,7 +2419,8 @@ body .consultaContacto {
   position: absolute;
   left: 50px;
   top: 900px;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
 }
 body .textAreaContacto {
   position: absolute;
@@ -2456,6 +2474,7 @@ body #pieDePaginaContacto .parrafoContacto3 {
   position: absolute;
   top: 1500px;
   left: 100px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto .twitterContacto {
   position: absolute;
@@ -2479,13 +2498,15 @@ body #pieDePaginaContacto .registrateContacto {
   position: absolute;
   top: 1490px;
   left: 1200px;
-  height: 40px;
+  height: auto;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto .renglonContacto {
   position: absolute;
   top: 1480px;
   left: 1300px;
-  height: 40px;
+  height: 44px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto .botonEnviarPieDePaginaContacto {
   position: absolute;
@@ -2502,12 +2523,13 @@ body #pieDePaginaContacto .linkFooter1Contacto {
   text-decoration: none;
   position: absolute;
   top: 1600px;
-  left: 700px;
+  left: 695px;
   border-style: solid;
   border-left: 10px;
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto a.linkFooter1Contacto:hover {
   color: green;
@@ -2526,6 +2548,7 @@ body #pieDePaginaContacto .linkFooter2Contacto {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto a.linkFooter2Contacto:hover {
   color: green;
@@ -2544,6 +2567,7 @@ body #pieDePaginaContacto .linkFooter3Contacto {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto a.linkFooter3Contacto:hover {
   color: green;
@@ -2562,6 +2586,7 @@ body #pieDePaginaContacto .linkFooter4Contacto {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto a.linkFooter4Contacto:hover {
   color: green;
@@ -2581,6 +2606,7 @@ body #pieDePaginaContacto .linkFooter5Contacto {
   border-top: 10px;
   border-bottom: 10px;
   padding: 5px;
+  background-color: aquamarine;
 }
 body #pieDePaginaContacto a.linkFooter5Contacto:hover {
   color: green;
@@ -2592,6 +2618,7 @@ body #pieDePaginaContacto .derechosContacto {
   position: absolute;
   top: 1650px;
   left: 800px;
+  background-color: aquamarine;
 }
 
 @media (max-width: 400px) {

@@ -114,7 +114,8 @@ body {
         position: absolute;
         left: 50px;
         top: 900px;
-        font-size: 30px;
+        font-size: 35px;
+        font-weight: bold;
     }
     .textAreaContacto {
         position: absolute;
@@ -169,6 +170,8 @@ body {
                 position: absolute;
                 top: 1500px;
                 left: 100px;
+                background-color: aquamarine;
+
             }
             .twitterContacto {
                 position: absolute;
@@ -192,13 +195,17 @@ body {
                 position: absolute;
                 top: 1490px;
                 left: 1200px;
-                height: 40px;
+                height: auto;
+                background-color: aquamarine;
+
             }
             .renglonContacto {
                 position: absolute;
                 top: 1480px;
                 left: 1300px;
-                height: 40px;
+                height: 44px;
+                background-color: aquamarine;
+
             }
             .botonEnviarPieDePaginaContacto {
                 position: absolute;
@@ -215,12 +222,14 @@ body {
                 text-decoration: none;
                 position:absolute;
                 top: 1600px;
-                left: 700px;
+                left: 695px;
                 border-style:solid;
                 border-left: 10px;
                 border-top: 10px;
                 border-bottom: 10px;
                 padding: 5px;
+                background-color: aquamarine;
+
             }
             a.linkFooter1Contacto:hover {
                 color: green;
@@ -239,6 +248,8 @@ body {
                 border-top: 10px;
                 border-bottom: 10px;
                 padding: 5px;
+                background-color: aquamarine;
+
             }
             a.linkFooter2Contacto:hover {
                 color: green;
@@ -257,6 +268,8 @@ body {
                 border-top: 10px;
                 border-bottom: 10px;
                 padding: 5px;
+                background-color: aquamarine;
+
             }
             a.linkFooter3Contacto:hover {
                 color: green;
@@ -275,6 +288,8 @@ body {
                 border-top: 10px;
                 border-bottom: 10px;
                 padding: 5px;
+                background-color: aquamarine;
+
             }
             a.linkFooter4Contacto:hover {
                 color: green;
@@ -294,6 +309,8 @@ body {
                 border-top: 10px;
                 border-bottom: 10px;
                 padding: 5px;
+                background-color: aquamarine;
+
             }
             a.linkFooter5Contacto:hover {
                 color: green;
@@ -305,6 +322,8 @@ body {
                 position: absolute;
                 top: 1650px;
                 left: 800px;
+                background-color: aquamarine;
+
             }
     }
 }

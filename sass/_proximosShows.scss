@@ -113,6 +113,8 @@ body {
     position: absolute;
     top: 1500px;
     left: 100px;
+    background-color: aquamarine;
+
 }
 .twitterProxShows {
     position: absolute;
@@ -136,13 +138,17 @@ body {
     position: absolute;
     top: 1490px;
     left: 1200px;
-    height: 40px;
+    height: auto;
+    background-color: aquamarine;
+
 }
 .renglonProxShows {
     position: absolute;
     top: 1480px;
     left: 1300px;
-    height: 40px;
+    height: 44px;
+    background-color: aquamarine;
+
 }
 .botonEnviarPieDePaginaProxShows {
     position: absolute;
@@ -159,12 +165,14 @@ body {
     text-decoration: none;
     position:absolute;
     top: 1600px;
-    left: 700px;
+    left: 695px;
     border-style:solid;
     border-left: 10px;
     border-top: 10px;
     border-bottom: 10px;
     padding: 5px;
+    background-color: aquamarine;
+
 }
 a.linkFooter1ProxShows:hover {
     color: green;
@@ -183,6 +191,8 @@ a.linkFooter1ProxShows:active {
     border-top: 10px;
     border-bottom: 10px;
     padding: 5px;
+    background-color: aquamarine;
+
 }
 a.linkFooter2ProxShows:hover {
     color: green;
@@ -201,6 +211,8 @@ a.linkFooter2ProxShows:active {
     border-top: 10px;
     border-bottom: 10px;
     padding: 5px;
+    background-color: aquamarine;
+
 }
 a.linkFooter3ProxShows:hover {
     color: green;
@@ -219,6 +231,8 @@ a.linkFooter3ProxShows:active {
     border-top: 10px;
     border-bottom: 10px;
     padding: 5px;
+    background-color: aquamarine;
+
 }
 a.linkFooter4ProxShows:hover {
     color: green;
@@ -238,6 +252,8 @@ a.linkFooter4ProxShows:active {
     border-top: 10px;
     border-bottom: 10px;
     padding: 5px;
+    background-color: aquamarine;
+
 }
 a.linkFooter5ProxShows:hover {
     color: green;
@@ -249,6 +265,8 @@ a.linkFooter5ProxShows:active {
     position: absolute;
     top: 1650px;
     left: 800px;
+    background-color: aquamarine;
+
 }
 }
 }
@@ -545,7 +563,7 @@ a.linkFooter5ProxShows:active {
         }
         .derechosProxShows {
             position: absolute;
-            top: 3950px;
+            top: 2950px;
             left: 10px;
             width: 370px;
             text-align: center;
